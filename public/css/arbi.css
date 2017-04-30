@@ -12,3 +12,14 @@ body {
 	src: url('../fonts/ZonaPro-Bold.otf');
 	src: url('../fonts/NUNITO-BOLD.ttf')  format('truetype')
 }
+
+.navbar-brand img {
+	height: 20px
+}
+
+section {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: auto;
+}
