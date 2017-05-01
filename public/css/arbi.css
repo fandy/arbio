@@ -48,3 +48,55 @@ section video {
 .input-group {
 	margin-bottom: 10px;
 }
+
+.navbar-default .navbar-nav>li>a{
+	font-size: 14px;
+	padding: 18px 24px;
+	-webkit-transition: background-color .45s cubic-bezier(.4,0,.2,1),color .45s cubic-bezier(.4,0,.2,1);
+    transition: background-color .45s cubic-bezier(.4,0,.2,1),color .45s cubic-bezier(.4,0,.2,1);
+}
+
+@media ( min-width : 768px) {
+	nav.navbar.navbar-default{
+		background-color: #FFFFFF;
+	}
+	.navbar-default .navbar-right>li>a{
+		border:none;
+	}
+	.navbar-default .navbar-nav li a:after{
+		-webkit-backface-visibility: hidden;
+	    -moz-backface-visibility: hidden;
+	    backface-visibility: hidden;
+	    border: 1px solid rgba(255, 255, 255, 0);
+	    bottom: -3px;
+	    content: " ";
+	    display: block;
+	    margin: 0 auto;
+	    position: relative;
+	    -webkit-transition: all 280ms ease-in-out;
+	    -moz-transition: all 280ms ease-in-out;
+	    -o-transition: all 280ms ease-in-out;
+	    -ms-transition: all 280ms ease-in-out;
+	    transition: all 280ms ease-in-out;
+	    width: 0;
+	}
+	.navbar-default .navbar-nav li a:hover, 
+	.navbar-default .navbar-nav li a:active, 
+	.navbar-default .navbar-nav li a:focus{
+		color: #F89B1C; 
+	}
+
+	.navbar-default .navbar-nav li a:hover:after, 
+	.navbar-default .navbar-nav li a.active:after,
+	.navbar-default .navbar-nav li a.focus:after{
+		-webkit-backface-visibility: hidden;
+	    backface-visibility: hidden;
+	    border-color: #F89B1C;
+	    -webkit-transition: width 350ms ease-in-out;
+	    -moz-transition: width 350ms ease-in-out;
+	    -o-transition: width 350ms ease-in-out;
+	    -ms-transition: width 350ms ease-in-out;
+	    transition: width 350ms ease-in-out;
+	    width: 100%;
+	}
+}
