@@ -5,6 +5,11 @@ body {
 	font-size: 18px;
 	padding: 0;
 	margin: 0;
+	overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5 {
+	overflow-y: hidden;
 }
 
 @font-face {
@@ -22,4 +27,24 @@ section {
 	margin: 0;
 	width: 100%;
 	height: auto;
+}
+
+.section {
+	padding: 20px 0;
+}
+
+section video {
+	width: 100%;
+}
+
+.bg-alter {
+	background-color: red;
+}
+
+.btn-full {
+	width: 100%
+}
+
+.input-group {
+	margin-bottom: 10px;
 }
