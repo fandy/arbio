@@ -1,4 +1,4 @@
-function resizeSection() {
+/*function resizeSection() {
 	var wH = $(window).height();	
 	var sH = $('#section-home');
 	sH.css('height', wH);
@@ -17,9 +17,37 @@ function resizeSection() {
 		'padding-bottom' : pB + 'px'
 	})
 }
+*/
+var $win = $(window);
+$win.scroll(function() {
+	if ($win.scrollTop() == 0) {
+
+		if (!$(".navbar-collapse").hasClass("in")) {
+			$("nav").removeClass("navbarcolor");
+		}
+	} else {
+		$("nav").addClass("navbarcolor");
+	}
+});
+
+$('a[href^="#"]').click(function(e) {
+	var target = $(this).attr('href');
+	var strip = target.slice(1);
+	var anchor = $("section[id='" + strip + "']");
+
+	e.preventDefault();
+
+	y = (anchor.offset() || {
+		"top" : NaN
+	}).top;
+
+	$('html, body').animate({
+		scrollTop : (y - 55)
+	}, 'slow');
+});
 
 $(window).on('load', function () {
-	resizeSection()
+	resizeSection();
 });
 
 var designedFor = $('#owlDesignedFor');
@@ -44,5 +72,5 @@ $(document).ready(function () {
 });
 
 $(window).resize(function () {
-	resizeSection()
+	resizeSection();
 });

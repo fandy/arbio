@@ -23,8 +23,10 @@
     <link rel="icon" type="image/png" sizes="16x16" href="public/images/favicon/favicon-16x16.png">
     <link rel="manifest" href="public/images/favicon/manifest.json">
     <link rel="stylesheet" href="public/components/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="public/fonts/material-icons.css">
     <link rel="stylesheet" href="public/components/OwlCarousel2-2.2.1/dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="public/components/OwlCarousel2-2.2.1/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="public/components/mdl/css/material.min.css">
     <link rel="stylesheet" href="public/css/arbi.css">
   </head>
   <body>
@@ -48,7 +50,7 @@
             <li><a href="#">Blog</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a class="btn btn-default" href="#">Login</a></li>
+            <li><button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">Login</button></li>
           </ul>
         </div>
       </div>
@@ -57,58 +59,44 @@
     <section id="section-home">
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
-            <h1>Main header</h1>
-            <h3>Sub-header</h3>
-            <h4>A paragrag of text with on <a href="#">unassigned link</a></h4>
-            <h4>A second row text with on <a href="#">web link</a></h4>
+          <div class="col-md-6 col-sm-6 height">
+            <div class="contenido-main text-center">
+              <h1>Arbi Augmented Reality platform, the best of the world.</h1>
+            </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 col-sm-6 height">
             <div class="row-fluid">
-              <div class="col-md-6">
-                <div class="input-group">
-                  <span class="input-group-addon" id="name1">
-                    <span class="glyphicon glyphicon-user"></span>
-                  </span>
-                  <input type="text" class="form-control" placeholder="Username" aria-describedby="name1">
+              <div class="contenido-formulario">
+                <div class="col-md-6">
+                  <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Username" aria-describedby="name1">
+                  </div>
                 </div>
-              </div>
-              <div class="col-md-6">
-                <div class="input-group">
-                  <span class="input-group-addon" id="name2">
-                    <span class="glyphicon glyphicon-user"></span>
-                  </span>
-                  <input type="text" class="form-control" placeholder="Username" aria-describedby="name2">
+                <div class="col-md-6">
+                  <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Name" aria-describedby="name2">
+                  </div>
                 </div>
-              </div>
-              <div class="col-md-6">
-                <div class="input-group">
-                  <span class="input-group-addon" id="name3">
-                    <span class="glyphicon glyphicon-user"></span>
-                  </span>
-                  <input type="text" class="form-control" placeholder="Username" aria-describedby="name3">
+                <div class="col-md-6">
+                  <div class="input-group">
+                    <input type="text" class="form-control" placeholder="FullName" aria-describedby="name3">
+                  </div>
                 </div>
-              </div>
-              <div class="col-md-6">
-                <div class="input-group">
-                  <span class="input-group-addon" id="name4">
-                    <span class="glyphicon glyphicon-user"></span>
-                  </span>
-                  <input type="text" class="form-control" placeholder="Username" aria-describedby="name4">
+                <div class="col-md-6">
+                  <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Email" aria-describedby="name4">
+                  </div>
                 </div>
-              </div>
-              <div class="col-md-12">
-                <div class="input-group">
-                  <span class="input-group-addon" id="name5">
-                    <span class="glyphicon glyphicon-user"></span>
-                  </span>
-                  <input type="text" class="form-control" placeholder="Username" aria-describedby="name5">
+                <div class="col-md-12 text-center">
+                  <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect register"><i class="mdi mdi-edit"></i>Register</button>
                 </div>
-              </div>
-              <div class="col-md-12">
-                <button class="btn btn-default btn-full">Sign up</button>
               </div>
             </div>
+          </div>
+          <div class="col-md-12 down">
+            <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab">
+              <i class="mdi mdi-keyboard_arrow_down"></i>
+            </button>
           </div>
         </div>
       </div>
@@ -170,12 +158,13 @@
           </div>
         </div>
       </div>
-    </section>
+    </section-->
 
     <script src="public/components/jquery-3.2.1/jquery-3.2.1.min.js"></script>
     <script src="public/components/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <script src="public/components/mdl/js/material.min.js"></script>
     <script src="public/components/OwlCarousel2-2.2.1/dist/owl.carousel.min.js"></script>
     <script src="public/js/arbi.js"></script>
     <script src="public/js/jshome.js"></script>
-  </body>.
+  </body>
 </html>
