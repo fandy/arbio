@@ -52,6 +52,9 @@ $(window).on('load', function () {
 
 var designedFor = $('#owlDesignedFor');
 $(document).ready(function () {
+	$('#nav-icon3').click(function(){
+		$(this).toggleClass('open');
+	});
 	resizeSection();
 	designedFor.owlCarousel({
 	    items:3,
