@@ -298,3 +298,9 @@ section video {
 		margin: auto;
 	}
 }
+
+@media (max-width : 460px) {
+	.col-md-12.down{
+		display: none;
+	}
+}
