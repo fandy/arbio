@@ -1,7 +1,7 @@
 *,
 html,
 body {
-	font-family: 'Atlas Grotesk Web', sans-serif !important;
+	font-family: 'Atlas Grotesk Web Bold', sans-serif !important;
 	font-family: "Helvetica Neue",Arial,Helvetica,sans-serif;
 	font-size: 18px;
 	padding: 0;
@@ -18,12 +18,25 @@ h3{
 }
 
 @font-face {
-	font-family: 'Atlas Grotesk Web';
+	font-family: 'Atlas Grotesk Web Bold';
 	src: url('../fonts/Atlas Grotesk Web-Bold.eot');
 	src: url('../fonts/Atlas Grotesk Web-Bold.eot?#iefix') format('embedded-opentype'),
 		 url('../fonts/Atlas Grotesk Web-Bold.woff') format('woff'),
 		 url('../fonts/Atlas Grotesk Web-Bold.ttf') format('truetype'),
 		 url('../fonts/Atlas Grotesk Web-Bold.svg#Atlas Grotesk Web') format('svg');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+}
+
+
+@font-face {
+	font-family: 'Atlas Grotesk Web';
+	src: url('../fonts/Atlas Grotesk Web-Regular.eot');
+	src: url('../fonts/Atlas Grotesk Web-Regular.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/Atlas Grotesk Web-Regular.woff') format('woff'),
+		 url('../fonts/Atlas Grotesk Web-Regular.ttf') format('truetype'),
+		 url('../fonts/Atlas Grotesk Web-Regular.svg#Atlas Grotesk Web') format('svg');
 	font-weight: 400;
 	font-style: normal;
 	font-stretch: normal;
