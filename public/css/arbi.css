@@ -1,7 +1,7 @@
 *,
 html,
 body {
-	font-family: 'ZonaPro', sans-serif;
+	font-family: 'Atlas Grotesk Web', sans-serif !important;
 	font-size: 18px;
 	padding: 0;
 	margin: 0;
@@ -12,10 +12,26 @@ h1, h2, h3, h4, h5 {
 	overflow-y: hidden;
 }
 
+h3{
+	font-size: 24px !important;
+}
+/*
 @font-face {
 	font-family: 'ZonaPro';
 	src: url('../fonts/ZonaPro-Bold.otf');
 	src: url('../fonts/NUNITO-BOLD.ttf')  format('truetype')
+}*/
+
+@font-face {
+	font-family: 'Atlas Grotesk Web';
+	src: url('../fonts/Atlas Grotesk Web-Bold.eot');
+	src: url('../fonts/Atlas Grotesk Web-Bold.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/Atlas Grotesk Web-Bold.woff') format('woff'),
+		 url('../fonts/Atlas Grotesk Web-Bold.ttf') format('truetype'),
+		 url('../fonts/Atlas Grotesk Web-Bold.svg#Atlas Grotesk Web') format('svg');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
 }
 
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
@@ -154,10 +170,11 @@ section video {
 }
 
 .navbar-default .navbar-nav>li>a{
-	font-size: 14px;
+	font-size: 11px;
 	padding: 18px 24px;
 	-webkit-transition: background-color .45s cubic-bezier(.4,0,.2,1),color .45s cubic-bezier(.4,0,.2,1);
     transition: background-color .45s cubic-bezier(.4,0,.2,1),color .45s cubic-bezier(.4,0,.2,1);
+    text-transform: uppercase;
 }
 .col-md-12.down{
     position: absolute;
@@ -220,6 +237,17 @@ section video {
     width: 100%;
     height: 100%;
     z-index: 0;
+}
+
+input{
+	color: #CCCCCC !important;
+}
+
+input:focus { 
+    outline: none !important;
+    border:1px solid #D92B2E !important;
+    color: #D92B2E !important;
+    box-shadow: 0 0 10px #719ECE;
 }
 
 @media ( min-width : 768px) {
