@@ -422,3 +422,37 @@ textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus {
 	border: 0.3px solid #e2e2e2 !important;
 	font-family: 'Atlas Grotesk Web', sans-serif !important;
 }
+
+.fondo-responsive{
+	background: url("../images/dims.jpg") no-repeat center center;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	display:block;
+}
+
+.fondo-imagen{
+	position:absolute;
+	width:100%;
+	height:100%;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	z-index: 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+#opacity {
+	position: absolute;
+	opacity: 0.5;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+	background: #000;
+}
