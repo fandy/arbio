@@ -77,3 +77,8 @@ $(document).ready(function () {
 $(window).resize(function () {
 	resizeSection();
 });
+
+function resizeSection() {
+    var top = $( window ).height();
+	$("#section-home").css('height', top);
+}
