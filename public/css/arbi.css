@@ -155,13 +155,13 @@ h1, h2, h3, h4, h5 {
 
 
 .navbar-brand{
-	padding: 12px;
+	padding: 7px 12px;
 	height: inherit;
 	margin-left: 0 !important;
 }
 
 .navbar-brand img {
-	width: 45px
+	width: 60px
 }
 
 section {
@@ -209,6 +209,8 @@ section video {
     text-transform: uppercase;
     color: #c3c3c3;
 }
+
+
 .col-md-12.down{
     position: absolute;
     bottom: 12px;
@@ -349,7 +351,7 @@ input:focus {
 	.navbar-default .navbar-nav li a:hover, 
 	.navbar-default .navbar-nav li a:active, 
 	.navbar-default .navbar-nav li a:focus{
-		color: #e61f22; 
+		color: #e61f22 !important; 
 	}
 
 	.navbar-default .navbar-nav li a.active:after,
@@ -385,13 +387,18 @@ input:focus {
 	.navbarcolor .navbar-collapse .navbar-right button{
 		background-color: #e61f22 !important;
 		color: #FFFFFF!important;
+		margin-top: 15px;
 	}
 
-	.navbarcolor .navbar-brand{} button{
+	.navbarcolor .navbar-brand button{
 		background-color: #e61f22 !important;
 		color: #FFFFFF !important;
 	}
 
+    .navbar-default.navbarcolor .navbar-nav>li>a{
+		color: #757575;
+	}
+	
 	.navbar-brand{
 		padding-right: 50px;
 		padding: 0;
