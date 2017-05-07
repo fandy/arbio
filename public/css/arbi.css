@@ -13,6 +13,10 @@ h1, h2, h3, h4, h5 {
 	overflow-y: hidden;
 }
 
+span.icon-logo:before{
+	font-family: 'icomoon';
+}
+
 @font-face {
 	font-family: 'Atlas Grotesk Web Bold';
 	src: url('../fonts/Atlas Grotesk Web-Bold.eot');
@@ -139,7 +143,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .fondo-imagen{
-	background: url("../images/dims.jpg") no-repeat center center;
+	background: url("../images/home_arbio.png") no-repeat center center;
 }
 
 #opacity {
@@ -207,7 +211,7 @@ section video {
 	-webkit-transition: background-color .45s cubic-bezier(.4,0,.2,1),color .45s cubic-bezier(.4,0,.2,1);
     transition: background-color .45s cubic-bezier(.4,0,.2,1),color .45s cubic-bezier(.4,0,.2,1);
     text-transform: uppercase;
-    color: #c3c3c3;
+    color: #FFFFFF;
 }
 
 
@@ -270,21 +274,6 @@ section video {
 .mdl-ripple{
 	background-color: #BDBDBD;
 }
-
-#puntos{
-    background: url(../images/bg.png) repeat-x 0 0;
-    position: absolute;
-    opacity: 0.85;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 0;
-}
-
-/*input{
-	color: #D92B2E !important;
-}*/
 
 input:focus { 
     outline: none !important;
@@ -396,11 +385,11 @@ input:focus {
 	}
 
     .navbar-default.navbarcolor .navbar-nav>li>a{
-		color: #757575;
+		color: #212153;
 	}
 	
 	.navbar-brand{
-		padding-right: 50px;
+		margin-right: 50px;
 		padding: 0;
 		-webkit-transition: padding 1s ease;
 	    -moz-transition: padding 1s ease;
@@ -408,26 +397,22 @@ input:focus {
 	    -ms-transition: padding 1s ease;
 		transition: padding 1s ease;
 		font-weight: bold;
+		margin-top: -15px;
 	}
 
+	.navbar-brand i{
+		color:#FFFFFF;
+		font-size: 80px;
+	}
+
+	.navbarcolor .navbar-brand i{
+		color: #212153;
+		font-size: 50px;
+		margin-top: 0;
+	}
 	.navbarcolor .navbar-brand{
-		padding: 12px;
+		margin-top: 0;
 	}
-	.navbar-brand img{
-		width: 90px;
-		-webkit-transition: width 1s ease;
-	    -moz-transition: width 1s ease;
-	    -o-transition: width 1s ease;
-	    -ms-transition: width 1s ease;
-		transition: width 1s ease;
-		font-weight: bold;
-		margin-top: -3px;
-	}
-
-	.navbarcolor .navbar-brand img{
-		width: 60px;
-	}
-
 }
 
 @media (max-width : 768px) {
