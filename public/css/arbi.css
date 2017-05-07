@@ -435,6 +435,9 @@ input:focus {
 		background-color: #FFFFFF;
 		box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 	}
+	.navbar-default .navbar-nav>li>a{
+		color: #757575;
+	}
 	.navbar-brand{
 	    position: relative;
     	left: calc(50% - 35px);
