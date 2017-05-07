@@ -426,7 +426,16 @@ input:focus {
 	.navbar-brand{
 	    position: relative;
     	left: calc(50% - 35px);
+    	padding: 0;
+    	overflow-y: hidden;
 	}
+
+	.navbar-brand i{
+		color: #212153;
+		line-height: 1;
+		font-size: 60px;
+	}
+
 	#section-home .col-md-6.height{
 		max-width: 520px;
 		margin: auto;
