@@ -80,5 +80,5 @@ $(window).resize(function () {
 
 function resizeSection() {
     var top = $( window ).height();
-	$("#section-home").css('height', top);
+	$(".section-home").css('height', top);
 }
