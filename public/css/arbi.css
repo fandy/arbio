@@ -131,7 +131,7 @@ span.icon-logo:before{
 .fondo-responsive{
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: cover;
+	background-size: cover !important;
 	width: 100%;
 	height: 100%;
 	display:block;
@@ -227,7 +227,10 @@ section video {
 }
 
 .col-md-12.down button{
-	background-color: #e61f22;
+	background-color: #FFFFFF;
+}
+.col-md-12.down button i{
+	color: #212153 !important;
 }
 
 .col-md-12.down button i{
@@ -238,9 +241,10 @@ section video {
 
 .mdl-button.mdl-js-button.mdl-button--raised{
 	margin-top: 11px;
-	background-color: #e61f22;
+	background-color: #FFFFFF;
 	text-transform: capitalize;
-	color: #FFFFFF;
+	color: #212153;
+	font-weight: bold;
 }
 .mdl-button.mdl-js-button.mdl-button--raised.register{
 	width: 100%;
@@ -248,7 +252,7 @@ section video {
 
 .mdl-button.mdl-js-button.mdl-button--raised.register i{
 	vertical-align: middle;
-    color: #FFFFFF;
+    color: #212153;
     margin-right: 10px;
 }
 
@@ -362,9 +366,9 @@ input:focus {
 	}
 
 	.navbar-right button{
-		border: 2px solid #e61f22;
+		border: 2px solid #FFFFFF;
 		background-color: transparent !important;
-		color: #e61f22 !important;
+		color: #FFFFFF !important;
 		-webkit-transition: all 1s ease;
 	    -moz-transition: all 1s ease;
 	    -o-transition: all 1s ease;
@@ -374,7 +378,7 @@ input:focus {
 	}
 
 	.navbarcolor .navbar-collapse .navbar-right button{
-		background-color: #e61f22 !important;
+		background-color: #212153 !important;
 		color: #FFFFFF!important;
 		margin-top: 15px;
 	}
@@ -425,7 +429,7 @@ input:focus {
 	}
 	.navbar-brand{
 	    position: relative;
-    	left: calc(50% - 35px);
+    	left: calc(50% - 22px);
     	padding: 0;
     	overflow-y: hidden;
 	}
