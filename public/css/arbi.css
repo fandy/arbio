@@ -148,7 +148,7 @@ span.icon-logo:before{
 
 #opacity {
 	position: absolute;
-	opacity: 0.7;
+	opacity: 0.5;
 	left: 0px;
 	top: 0px;
 	width: 100%;
@@ -241,9 +241,9 @@ section video {
 
 .mdl-button.mdl-js-button.mdl-button--raised{
 	margin-top: 11px;
-	background-color: #FFFFFF;
+	background-color: #e61f22;
 	text-transform: capitalize;
-	color: #212153;
+	color: #FFFFFF;
 	font-weight: bold;
 }
 .mdl-button.mdl-js-button.mdl-button--raised.register{
@@ -252,7 +252,7 @@ section video {
 
 .mdl-button.mdl-js-button.mdl-button--raised.register i{
 	vertical-align: middle;
-    color: #212153;
+    color: #ffffff;
     margin-right: 10px;
 }
 
