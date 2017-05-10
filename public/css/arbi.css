@@ -415,15 +415,22 @@ section h3.bold{
 	.navbar-brand i{
 		color:#FFFFFF;
 		font-size: 80px;
+		-webkit-transition: font-size .5s ease-in-out,color .5s ease-in-out;
+		-moz-transition: font-size .5s ease-in-out,color .5s ease-in-out;
+		-o-transition: font-size .5s ease-in-out,color .5s ease-in-out;
+		transition: font-size .5s ease-in-out,color .5s ease-in-out;
 	}
 
 	.navbarcolor .navbar-brand i{
 		color: #212153;
 		font-size: 50px;
-		margin-top: 0;
+		-webkit-transition: font-size .5s ease-in-out,color .5s ease-in-out;
+		-moz-transition: font-size .5s ease-in-out,color .5s ease-in-out;
+		-o-transition: font-size .5s ease-in-out,color .5s ease-in-out;
+		transition: font-size .5s ease-in-out,color .5s ease-in-out;
 	}
 	.navbarcolor .navbar-brand{
-		margin-top: 0;
+		padding-top: 14px;
 	}
 }
 
