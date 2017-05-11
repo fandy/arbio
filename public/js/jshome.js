@@ -42,7 +42,7 @@ $('a[href^="#"]').click(function(e) {
 	}).top;
 
 	$('html, body').animate({
-		scrollTop : (y - 55)
+		scrollTop : (y - 60)
 	}, 'slow');
 });
 

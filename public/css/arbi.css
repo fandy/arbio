@@ -225,20 +225,17 @@ section video {
     left: calc(50% - 15px);
 }
 
-.col-md-12.down button{
+.col-md-12.down a{
 	background-color: #8D126F;
 	height: 45px;
     min-width: 45px;
     width: 45px;
+    text-decoration: none;
 }
-.col-md-12.down button i{
-	color: #FFFFFF !important;
-}
-
-.col-md-12.down button i{
+.col-md-12.down a i{
 	color: #FFFFFF;
     position: relative;
-    top: 4px;
+    top: 10px;
 }
 
 .mdl-button.mdl-js-button.mdl-button--raised{
@@ -307,15 +304,16 @@ input:focus {
 }
 
 .contenido-formulario{
-	background-color: #FFFFFF;
-	padding: 42px;
+    background-color: #FFFFFF;
+    padding: 40px 25px;
+    max-width: 420px;
 
 }
 .form-control{
 	height: 45px
 }
 
-#section-home .col-md-6.height{
+#section-home .height{
 	height: 100vh;
 }
 section.existing{
@@ -471,7 +469,7 @@ section h3.bold{
 		font-size: 60px;
 	}
 
-	#section-home .col-md-6.height{
+	#section-home .height{
 		max-width: 520px;
 		margin: auto;
 	}
@@ -488,7 +486,7 @@ section h3.bold{
 	.contenido-formulario h3{
 		margin-top: 0;
 	}
-	#section-home .col-md-6.height.formulario{
+	#section-home .height.formulario{
 		display: none;
 	}
 
