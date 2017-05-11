@@ -390,8 +390,8 @@ section h3.bold{
 	}
 
 	.navbar-right button{
-		border: 2px solid #FFFFFF;
-		background-color: transparent !important;
+		border: 2px solid #D92B2E;
+		background-color: #D92B2E !important;
 		color: #FFFFFF !important;
 		-webkit-transition: all 1s ease;
 	    -moz-transition: all 1s ease;
@@ -399,11 +399,12 @@ section h3.bold{
 	    -ms-transition: all 1s ease;
 		transition: all 1s ease;
 		font-weight: bold;
+		line-height: 1;
 	}
 
 	.navbarcolor .navbar-collapse .navbar-right button{
-		background-color: #212153 !important;
-		color: #FFFFFF!important;
+		background-color: #FFFFFF !important;
+		color: #D92B2E!important;
 		margin-top: 15px;
 	}
 
