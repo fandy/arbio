@@ -343,7 +343,16 @@ section#unity .container p{
 section#unity .container p.bold{
 	color: #15153F;
 }
-
+section#tablet .contenido-tablet{
+	padding: 30px 190px;
+	text-align: left;
+}
+section#tablet .contenido-final{
+	max-width: 850px;
+    margin: auto;
+    text-align: center;
+    float: none;
+}
 section .container.tablet{
 	width: 100%;
 	padding: 0;
