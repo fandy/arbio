@@ -363,10 +363,14 @@ section .container.tablet img{
 
 button.play-store{
 	background-color: #DC4459 !important;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.25), 0 5px 10px rgba(0,0,0,0.22);
+    margin: 30px;
 }
 
 button.apple{
 	background-color: #588B8B !important;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.25), 0 5px 10px rgba(0,0,0,0.22);
+    margin: 30px;
 }
 .logos-augmented img{
 	margin: 0 10px;
@@ -388,6 +392,18 @@ button.apple{
 .guion-small.large{
 	width: 150px;
 	background-color: #581E4C;
+}
+.morado{
+	background-color: #581E4C;
+	color: #FFFFFF;
+}
+.rosado{
+	background-color: #E75168;
+	color: #FFFFFF;
+}
+.azul{
+	background-color: #39396F;
+	color: #FFFFFF;
 }
 
 @media ( min-width : 768px) {
