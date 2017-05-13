@@ -377,6 +377,18 @@ button.apple{
 .m-t-0{
 	margin-top: 0;
 }
+.guion-small{
+	content : '';
+	width: 50px;
+	height: 13px;
+	background-color: #FFFFFF;
+	margin: auto;
+}
+
+.guion-small.large{
+	width: 150px;
+	background-color: #581E4C;
+}
 
 @media ( min-width : 768px) {
 	nav.navbar.navbar-default{
