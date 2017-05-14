@@ -412,7 +412,7 @@ button.apple i{
 	content : '';
 	width: 50px;
 	height: 13px;
-	background-color: #FFFFFF;
+	background-color: #581E4C;
 	margin: 25px auto;
 }
 
@@ -439,6 +439,9 @@ button.apple i{
 }
 .rojo{
 	background-color: #FF0000 !important;
+}
+.padding-conferencia{
+	padding: 100px;
 }
 .separacion{
 	margin-bottom: 50px;
