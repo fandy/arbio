@@ -177,7 +177,7 @@ section {
 }
 
 .section {
-    padding: 30px 0 60px 0;
+    padding: 30px 10px 50px 10px;
 }
 
 .contenido-main a{
@@ -245,6 +245,7 @@ section video {
 	text-transform: initial;
 	color: #FFFFFF;
 	font-weight: bold;
+	margin-right: 20px;
 }
 .mdl-button.mdl-js-button.mdl-button--raised.register{
 	width: 100%;
@@ -308,7 +309,7 @@ input:focus {
 .contenido-formulario{
     background-color: #FFFFFF;
     padding: 40px 25px;
-    max-width: 375px;
+    max-width: 360px;
 
 }
 .form-control{
@@ -645,6 +646,9 @@ p{
 	}
 	h3.bold{
 		font-size: 24px;
+	}
+	.container .contenido-video {
+	    padding: 30px 10px;
 	}
 }
 textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus {   
