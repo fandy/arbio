@@ -412,7 +412,7 @@ button.apple i{
 	content : '';
 	width: 50px;
 	height: 13px;
-	background-color: #581E4C;
+	background-color: #FFFFFF;
 	margin: 25px auto;
 }
 
@@ -441,7 +441,12 @@ button.apple i{
 	background-color: #FF0000 !important;
 }
 .padding-conferencia{
-	padding: 100px;
+	padding: 59px 120px;
+}
+
+.padding-conferencia.height{
+	height: 385px;
+	padding-top: 100px;
 }
 .separacion{
 	margin-bottom: 50px;
