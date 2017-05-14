@@ -293,6 +293,7 @@ input:focus {
 #section-home{
 	height: 100vh;
 	overflow: hidden;
+	padding: 10px;
 }
 .contenido-formulario,
 .contenido-main{
@@ -407,6 +408,9 @@ button.apple i{
 }
 .m-t-0{
 	margin-top: 0 !important;
+}
+.p-l-0{
+	padding-left: 0 !important;
 }
 .guion-small{
 	content : '';
