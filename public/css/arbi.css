@@ -169,7 +169,7 @@ span.icon-logo:before{
 }
 
 section {
-	padding: 0;
+	padding: 50px 30px;
 	margin: 0;
 	width: 100%;
 	height: auto;
@@ -347,12 +347,15 @@ section#unity .container p{
 section#unity .container p.bold{
 	color: #15153F;
 }
-section#tablet .contenido-tablet{
+.container .contenido-tablet{
 	padding: 30px 190px;
 	text-align: left;
 }
+.container .contenido-video{
+	padding: 30px 120px;
+}	
 section#tablet .contenido-final{
-	max-width: 850px;
+	max-width: 600px;
     margin: auto;
     text-align: center;
     float: none;
@@ -366,7 +369,7 @@ section .container.tablet img{
 }
 
 section#product .container .col-md-4{
-	padding: 30px 66px;
+	padding: 30px 48px;
 }
 section#product .container .col-md-4 h3{
     font-size: 20px;
@@ -377,14 +380,24 @@ section#product .container .col-md-4 h3{
 
 button.play-store{
 	background-color: #DC4459 !important;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.25), 0 5px 10px rgba(0,0,0,0.22);
-    margin: 30px;
 }
 
 button.apple{
 	background-color: #588B8B !important;
+}
+
+button.play-store,
+button.apple{
     box-shadow: 0 5px 20px rgba(0,0,0,0.25), 0 5px 10px rgba(0,0,0,0.22);
-    margin: 30px;
+    margin: 10px;
+    height: 50px;
+    border-radius: 8px;
+}
+
+button.apple i{
+	vertical-align: middle;
+    margin-right: 10px;
+    font-size: 32px;
 }
 .logos-augmented img{
 	margin: 0 10px;
@@ -393,7 +406,7 @@ button.apple{
 	margin-bottom: 0;
 }
 .m-t-0{
-	margin-top: 0;
+	margin-top: 0 !important;
 }
 .guion-small{
 	content : '';
@@ -413,7 +426,7 @@ button.apple{
 	color: #FFFFFF;
 }
 .rosado{
-	background-color: #E75168;
+	background-color: #E75168 !important;
 	color: #FFFFFF;
 }
 .azul{
@@ -424,6 +437,12 @@ button.apple{
 	background-color: #588B8B;
 	color: #FFFFFF;
 }
+.rojo{
+	background-color: #FF0000 !important;
+}
+.separacion{
+	margin-bottom: 50px;
+}
 i.circular{
 	float: left;
     margin-right: 15px;
@@ -432,6 +451,10 @@ i.circular{
     padding: 0;
     width: 34px;
     color: #fff;
+}
+
+p{
+	font-size: 16px;
 }
 
 @media ( min-width : 768px) {
