@@ -485,6 +485,10 @@ p{
 		   transition: font-size .3s ease;
 }
 
+.p-b-0{
+	padding-bottom: 0;
+}
+
 @media ( min-width : 768px) {
 	nav.navbar.navbar-default{
 		background-color: transparent;
@@ -661,7 +665,6 @@ p{
 		padding-right: 0 !important;
 		padding-left: 0 !important; 
 	}
-
 }
 
 @media (max-width : 680px) {
