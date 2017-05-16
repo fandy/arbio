@@ -657,6 +657,10 @@ p{
 	#section-home .height.formulario{
 		display: none;
 	}
+	.p-rl-0{
+		padding-right: 0 !important;
+		padding-left: 0 !important; 
+	}
 
 }
 
