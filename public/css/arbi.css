@@ -518,6 +518,10 @@ p{
 	margin: 40px 0;
 }
 
+a.call-me{
+	visibility: hidden
+}
+
 @media ( min-width : 768px) {
 	nav.navbar.navbar-default{
 		background-color: transparent;
@@ -655,6 +659,9 @@ p{
 }
 
 @media (max-width : 768px) {
+	.navbarcolor .navbar-brand{
+		left: calc(50% - 22px);
+	}
 	nav.navbar.navbar-default{
 		background-color: #FFFFFF;
 		box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
@@ -664,9 +671,13 @@ p{
 	}
 	.navbar-brand{
 	    position: relative;
-    	left: calc(50% - 22px);
+    	left: 20px;
     	padding: 0;
     	overflow-y: hidden;
+    	-webkit-transition: left .5s ease-in-out;
+		-moz-transition: left .5s ease-in-out;
+		-o-transition: left .5s ease-in-out;
+		transition: left .5s ease-in-out;
 	}
 
 	.navbar-brand i{
@@ -705,6 +716,34 @@ p{
 	}
 	.register-direction{
 		display: block !important;
+	}
+	.navbar.navbar-default .container-fluid{
+		padding-right: 0;
+		padding-left: 0;
+	}
+	a.call-me{
+	    position: absolute;
+	    left: -50px;
+	    opacity: 0;
+	    padding: 0px 5px;
+	    height: 30px;
+	    vertical-align: middle;
+	    padding-top: 0;
+	    font-size: 13px;
+	    margin-top: 15px !important;
+	    line-height: 30px;
+	    background-color: #212153 !important;
+	    text-decoration: none;
+	    -webkit-transition: left .5s ease-in-out, opacity .5s ease-in-out, visibility .5s ease-in-out;
+		-moz-transition: left .5s ease-in-out, opacity .5s ease-in-out,visibility .5s ease-in-out;
+		-o-transition: left .5s ease-in-out, opacity .5s ease-in-out, visibility .5s ease-in-out;
+		transition: left .5s ease-in-out, opacity .5s ease-in-out, visibility .5s ease-in-out;
+	}
+	.navbarcolor .navbar-header a.call-me{
+		left: 15px;
+		visibility: visible;
+		display: block !important;
+		opacity: 1;
 	}
 }
 
