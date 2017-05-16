@@ -412,10 +412,12 @@ button.apple{
     border-radius: 8px;
 }
 
+button.play-store i,
 button.apple i{
 	vertical-align: middle;
     margin-right: 10px;
     font-size: 32px;
+    color: #FFFFFF;
 }
 .logos-augmented img{
 	margin: 0 10px;

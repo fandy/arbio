@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'Material Icons';
-  src:  url('iconos-nuevos/Material-Icons.eot?hjcw05');
-  src:  url('iconos-nuevos/Material-Icons.eot?hjcw05#iefix') format('embedded-opentype'),
-    url('iconos-nuevos/Material-Icons.ttf?hjcw05') format('truetype'),
-    url('iconos-nuevos/Material-Icons.woff?hjcw05') format('woff'),
-    url('iconos-nuevos/Material-Icons.svg?hjcw05#icomoon') format('svg');
+  src:  url('iconos-nuevos/Material-icons-new.eot?ie004x');
+  src:  url('iconos-nuevos/Material-icons-new.eot?ie004x#iefix') format('embedded-opentype'),
+    url('iconos-nuevos/Material-icons-new.ttf?ie004x') format('truetype'),
+    url('iconos-nuevos/Material-icons-new.woff?ie004x') format('woff'),
+    url('iconos-nuevos/Material-icons-new.svg?ie004x#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,6 +24,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.mdi-play-store:before {
+  content: "\e900";
+}
 .mdi-logo_nuevo:before {
   content: "\e901";
 }
