@@ -372,7 +372,11 @@ section .container.tablet img{
 }
 
 section#product .container .col-md-4{
-	padding: 30px 48px;
+	padding: 30px 38px;
+	-webkit-transition: padding.5s ease;
+	-moz-transition: padding .5s ease;
+	-o-transition: padding .5s ease;
+	transition: padding .5s ease;
 }
 section#product .container .col-md-4 h3{
     font-size: 20px;
@@ -447,12 +451,17 @@ button.apple i{
 	background-color: #FF0000 !important;
 }
 .padding-conferencia{
-	padding: 59px 120px;
+	padding: 59px 100px;
+	-webkit-transform: padding .3s ease;
+	  -moz-transition: padding .3s ease;
+	   -ms-transition: padding .3s ease;
+		-o-transition: padding .3s ease;
+		   transition: padding .3s ease;
 }
 
 .padding-conferencia.height{
 	height: 385px;
-	padding-top: 100px;
+	padding-top: 110px;
 }
 .separacion{
 	margin-bottom: 50px;
@@ -468,7 +477,12 @@ i.circular{
 }
 
 p{
-	font-size: 16px;
+	font-size: 18px;
+	-webkit-transform: font-size .3s ease;
+	  -moz-transition: font-size .3s ease;
+	   -ms-transition: font-size .3s ease;
+		-o-transition: font-size .3s ease;
+		   transition: font-size .3s ease;
 }
 
 @media ( min-width : 768px) {
@@ -593,6 +607,14 @@ p{
 		padding-top: 14px;
 	}
 }
+@media (max-width : 992px) {
+	section#product .container .col-md-4{
+    	padding: 30px 15px;
+	}
+	p{
+		font-size: 16px;
+	}
+}
 
 @media (max-width : 768px) {
 	nav.navbar.navbar-default{
@@ -637,6 +659,12 @@ p{
 	}
 
 }
+
+@media (max-width : 680px) {
+	.padding-conferencia{
+		padding: 59px 10px;
+	}
+}	
 
 @media (max-width : 460px) {
 	.contenido-main h1{
