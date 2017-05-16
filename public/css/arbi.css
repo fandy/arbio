@@ -351,8 +351,11 @@ section#unity .container p.bold{
 	color: #15153F;
 }
 .container .contenido-tablet{
-	padding: 30px 190px;
+	padding: 170px;
 	text-align: left;
+}
+.container .contenido-tablet p{
+	font-size: 20px;
 }
 .container .contenido-video{
 	padding: 30px 120px;
@@ -369,6 +372,8 @@ section .container.tablet{
 }
 section .container.tablet img{
 	width: 100%;
+	width: 500px;
+	height: 400px;
 }
 
 section#product .container .col-md-4{
@@ -487,6 +492,10 @@ p{
 
 .p-b-0{
 	padding-bottom: 0;
+}
+
+.col-md-12.margin-redes{
+	margin: 40px 0;
 }
 
 @media ( min-width : 768px) {
