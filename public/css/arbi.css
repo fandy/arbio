@@ -351,7 +351,7 @@ section#unity .container p.bold{
 	color: #15153F;
 }
 .container .contenido-tablet{
-	padding: 170px;
+	padding: 120px;
 	text-align: left;
 }
 .container .contenido-tablet p{
@@ -371,9 +371,9 @@ section .container.tablet{
 	padding: 0;
 }
 section .container.tablet img{
-	width: 100%;
-	width: 500px;
-	height: 400px;
+	max-width: 100%;
+	width: 550px;
+	max-height: 400px;
 }
 
 section#product .container .col-md-4{
