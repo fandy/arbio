@@ -224,7 +224,7 @@ section video {
     text-align: center;
     margin: 0;
     padding: 0;
-    left: calc(50% - 15px);
+    left: calc(50% - 16px);
 }
 
 .col-md-12.down a{
@@ -449,6 +449,16 @@ button.apple i{
 	width: 180px;
 	background-color: #581E4C;
 	margin: 60px auto;
+}
+a.blanco{
+	text-decoration: none;
+}
+.blanco{
+	background-color: #FFFFFF !important;
+	color: #8D126F !important;
+}
+.blanco i{
+	color: #8D126F !important;
 }
 .morado{
 	background-color: #581E4C;
@@ -692,6 +702,9 @@ p{
 	.container .imagen-tablet{
 		margin: auto;
 		text-align: center;
+	}
+	.register-direction{
+		display: block !important;
 	}
 }
 
