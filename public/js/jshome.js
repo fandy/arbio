@@ -1,23 +1,9 @@
-/*function resizeSection() {
-	var wH = $(window).height();	
-	var sH = $('#section-home');
-	sH.css('height', wH);
-	var cH = sH.find('.container').find('.row').height();
-	var pB = null,
-		pT = null;
-	if ( wH < cH ) {
-		pB = 16;
-		pT = 90;
-	} else {
-		pB = (wH - cH) / 2;
-		pT = (wH - cH) / 2;
-	}
-	sH.css({
-		'padding-top' 	 : pT + 'px',
-		'padding-bottom' : pB + 'px'
-	})
-}
-*/
+$(document).ready(function(){
+    $('#view-video').click(function(){
+         $('video')[0].webkitEnterFullScreen();
+         $('video')[0].mozRequestFullScreen();
+    });
+});
 var $win = $(window);
 $win.scroll(function() {
 	if ($win.scrollTop() == 0) {

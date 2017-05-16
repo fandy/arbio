@@ -362,7 +362,7 @@ section#unity .container p.bold{
 	font-size: 20px;
 }
 .container .contenido-video{
-	padding: 30px 100px;
+	padding: 30px 80px;
 }	
 section#tablet .contenido-final{
 	max-width: 600px;
@@ -530,7 +530,7 @@ a.call-me{
 
 .video-arbio button{
     position: absolute;
-    top: calc(50% - 50px);
+    top: calc(50% - 40px);
     left: calc(50% - 80px);
     z-index: 10;
     height: 60px;

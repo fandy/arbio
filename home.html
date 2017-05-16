@@ -141,8 +141,8 @@
             </div>
           </div>
           <div class="col-md-7 video-arbio">
-            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect fucsia">Watch the video<i class="mdi mdi-play_circle_filled"></i></button>
-            <video preload="auto" src="https://s3.amazonaws.com/www-assets.invisionapp.com/Homepage/enterprise-loop.mp4"></video>
+            <button id="view-video" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect fucsia" onclick="videoplay()">Watch the video<i class="mdi mdi-play_circle_filled"></i></button>
+            <video id="myvideo" src="https://s3.amazonaws.com/www-assets.invisionapp.com/Homepage/enterprise-loop.mp4"></video>
           </div>
         </div>
       </div>
@@ -258,5 +258,12 @@
     <script src="public/components/OwlCarousel2-2.2.1/dist/owl.carousel.min.js"></script>
     <script src="public/js/arbi.js"></script>
     <script src="public/js/jshome.js"></script>
+    <script type="text/javascript">
+      var vid = document.getElementById("myvideo");
+      function videoplay() { 
+        vid.autoplay = true;
+        vid.load();
+      }
+    </script>
   </body>
 </html>
