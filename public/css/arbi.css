@@ -187,6 +187,7 @@ section {
 
 section video {
 	width: 100%;
+	opacity: 0.7;
 }
 
 .bg-white {
@@ -361,7 +362,7 @@ section#unity .container p.bold{
 	font-size: 20px;
 }
 .container .contenido-video{
-	padding: 30px 120px;
+	padding: 30px 100px;
 }	
 section#tablet .contenido-final{
 	max-width: 600px;
@@ -460,6 +461,11 @@ a.blanco{
 .blanco i{
 	color: #8D126F !important;
 }
+
+.fucsia{
+	background-color: #2E2E60 !important;
+	color: #FFFFFF !important;
+}
 .morado{
 	background-color: #581E4C;
 	color: #FFFFFF;
@@ -519,9 +525,24 @@ p{
 }
 
 a.call-me{
-	visibility: hidden
+	visibility: hidden;
 }
 
+.video-arbio button{
+    position: absolute;
+    top: calc(50% - 50px);
+    left: calc(50% - 80px);
+    z-index: 10;
+    height: 60px;
+    border-radius: 8px;
+}
+.video-arbio button i{
+    vertical-align: middle;
+    margin-left: 10px;
+    font-size: 40px;
+    background-color: #3E3E6D;
+    border-radius: 50%;
+}
 @media ( min-width : 768px) {
 	nav.navbar.navbar-default{
 		background-color: transparent;
@@ -614,7 +635,7 @@ a.call-me{
 	}
 	
 	.navbar-brand{
-		margin-right: 50px;
+		margin-right: 32px;
 		padding: 0;
 		-webkit-transition: padding 1s ease;
 	    -moz-transition: padding 1s ease;
@@ -643,6 +664,9 @@ a.call-me{
 	}
 	.navbarcolor .navbar-brand{
 		padding-top: 14px;
+	}
+	a.call-me{
+		display: none;
 	}
 }
 @media (max-width : 992px) {
