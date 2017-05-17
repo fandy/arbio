@@ -738,7 +738,7 @@ section#faq h3.bold{
 }
 @media (max-width : 992px) {
 	section#product .container .col-md-4{
-    	padding: 30px 15px;
+    	padding: 30px 40px;
 	}
 	p{
 		font-size: 16px !important;
