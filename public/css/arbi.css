@@ -583,13 +583,13 @@ a.call-me{
 	padding: 10px;
     border-top: 1px solid #C2BFC1;
 }
-.mdl-card-pricing:nth-child(1) .mdl-card__title{
+.mdl-card-pricing:nth-child(2) .mdl-card__title{
 	background-color: #F29492;
 }
-.mdl-card-pricing:nth-child(2) .mdl-card__title{
+.mdl-card-pricing:nth-child(3) .mdl-card__title{
 	background-color: #A3B4A5;
 }
-.mdl-card-pricing:nth-child(3) .mdl-card__title{
+.mdl-card-pricing:nth-child(4) .mdl-card__title{
 	background-color: #A37883;
 }
 @media ( min-width : 768px) {
