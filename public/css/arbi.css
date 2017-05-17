@@ -438,6 +438,10 @@ button.apple i{
 .p-b-0{
 	padding-bottom: 0 !important;
 }
+.p-rl-0{
+	padding-right: 0 !important;
+	padding-left: 0 !important; 
+}
 .guion-small{
 	content : '';
 	width: 50px;
@@ -554,6 +558,14 @@ a.call-me{
 	margin: 15px;
 
 }
+.mdl-card-pricing .mdl-card__title h2{
+	margin: auto;
+}
+.mdl-card-pricing .mdl-card__supporting-text ul li{
+	padding: 10px;
+    border-top: 1px solid #C2BFC1;
+}
+    
 @media ( min-width : 768px) {
 	nav.navbar.navbar-default{
 		background-color: transparent;
@@ -740,10 +752,6 @@ a.call-me{
 	}
 	#section-home .height.formulario{
 		display: none;
-	}
-	.p-rl-0{
-		padding-right: 0 !important;
-		padding-left: 0 !important; 
 	}
 	.container .imagen-tablet{
 		margin: auto;
