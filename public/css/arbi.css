@@ -178,7 +178,7 @@ section {
 }
 
 .section {
-    padding: 30px 0 50px 0;
+    padding: 20px 0 50px 0;
 }
 
 .contenido-main a{
@@ -369,6 +369,7 @@ section#tablet .contenido-final{
     margin: auto;
     text-align: center;
     float: none;
+    padding: 0 35px;
 }
 section .container.tablet{
 	width: 100%;
@@ -456,7 +457,7 @@ button.apple i{
 .guion-small.large{
 	width: 180px;
 	background-color: #581E4C;
-	margin: 60px auto;
+	margin: 45px auto;
 }
 a.blanco{
 	text-decoration: none;
@@ -554,7 +555,7 @@ a.call-me{
     border-radius: 50%;
 }
 .mdl-card-pricing{
-	max-width: 275px;
+	max-width: 260px;
 	display: inline-block;
 	border-radius: 5px;
 	vertical-align: top;
@@ -598,6 +599,12 @@ a.call-me{
 }
 .mdl-card-pricing:nth-child(4) .mdl-card__title{
 	background-color: #A37883;
+}
+section#faq h3.bold.m-b-0{
+	font-size: 24px;
+}
+section#faq h3.bold{
+	font-size: 20px;
 }
 @media ( min-width : 768px) {
 	nav.navbar.navbar-default{
@@ -825,7 +832,7 @@ a.call-me{
 
 @media (max-width : 680px) {
 	.padding-conferencia{
-		padding: 59px 10px;
+		padding: 59px 30px;
 	}
 	.col-md-12.margin-redes .col-xs-6{
 		width: 100%;
@@ -841,13 +848,16 @@ a.call-me{
 		font-size: 16px;
 	}
 	h3.bold{
-		font-size: 24px;
+		font-size: 20px;
 	}
 	.container .contenido-video {
 	    padding: 30px 10px;
 	}
 	.container .contenido-tablet{
-		padding: 20px;
+    	padding: 10px 35px;
+	}
+	section#product .container .col-md-4 {
+	    padding: 30px 40px;
 	}
 }
 textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus {   
