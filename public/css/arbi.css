@@ -369,7 +369,7 @@ section#tablet .contenido-final{
     margin: auto;
     text-align: center;
     float: none;
-    padding: 0 35px;
+    padding: 0 40px;
 }
 section .container.tablet{
 	width: 100%;
@@ -445,6 +445,9 @@ button.apple i{
 }
 .p-0{
 	padding: 0 !important
+}
+.p-30{
+	padding: 0 30px;
 }
 .guion-small{
 	content : '';
