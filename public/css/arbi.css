@@ -442,6 +442,9 @@ button.apple i{
 	padding-right: 0 !important;
 	padding-left: 0 !important; 
 }
+.p-0{
+	padding: 0 !important
+}
 .guion-small{
 	content : '';
 	width: 50px;
@@ -558,14 +561,37 @@ a.call-me{
 	margin: 15px;
 
 }
+.mdl-card-pricing .mdl-card__title{
+	display: block;
+}
 .mdl-card-pricing .mdl-card__title h2{
 	margin: auto;
+	display: block;
+	color: #66265A;
+}
+.mdl-card-pricing .mdl-card__title h3{
+	font-size: 18px;
+	color: #4B4B4B;
+}
+.mdl-card-pricing .mdl-card__title h1{
+	color: #52324C;
+}
+.mdl-card-pricing .mdl-card__title strong{
+	font-size: 50px;
 }
 .mdl-card-pricing .mdl-card__supporting-text ul li{
 	padding: 10px;
     border-top: 1px solid #C2BFC1;
 }
-    
+.mdl-card-pricing:nth-child(1) .mdl-card__title{
+	background-color: #F29492;
+}
+.mdl-card-pricing:nth-child(2) .mdl-card__title{
+	background-color: #A3B4A5;
+}
+.mdl-card-pricing:nth-child(3) .mdl-card__title{
+	background-color: #A37883;
+}
 @media ( min-width : 768px) {
 	nav.navbar.navbar-default{
 		background-color: transparent;
