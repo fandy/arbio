@@ -447,7 +447,7 @@ button.apple i{
 	padding: 0 !important
 }
 .p-30{
-	padding: 0 30px;
+	padding: 0 30px !important;
 }
 .guion-small{
 	content : '';
