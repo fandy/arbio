@@ -784,6 +784,7 @@ section#faq h3.bold{
 	.contenido-main{
 		text-align: center;
 		position: relative;
+		padding: 0 20px;
 	}
 	.contenido-main h1{
 		font-size: 30px;
@@ -862,6 +863,9 @@ section#faq h3.bold{
 	}
 	section#product .container .col-md-4 {
 	    padding: 30px 40px;
+	}
+	.container.max-600 {
+		padding: 0 35px;
 	}
 }
 textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus {   
