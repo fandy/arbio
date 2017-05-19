@@ -1,7 +1,7 @@
 *,
 html,
 body {
-	font-family: 'Atlas Grotesk Web', sans-serif;
+	font-family: "Open Sans",Verdana,Arial,Helvetica,sans-serif;
 	font-size: 18px;
 	padding: 0;
 	margin: 0;
@@ -11,7 +11,7 @@ body {
 
 h1, h2, h3,.mdl-button{
 	overflow-y: hidden;
-	font-family: 'Atlas Grotesk Web', sans-serif;
+	font-family: "Open Sans",Verdana,Arial,Helvetica,sans-serif;
 }
 
 span.icon-logo:before{
@@ -259,20 +259,17 @@ section video {
 }
 
 .contenido-main h1{
-	font-size: 32px;
+	font-size: 30px;
 	color: #FFFFFF;
 	font-weight: bold;
 }
 
-.contenido-main h3{
-	font-family: 'Atlas Grotesk Web' !important;
-	font-size: 22px;
-	line-height: 1.3;
+.contenido-main p{
+	font-family: "Open Sans",Verdana,Arial,Helvetica,sans-serif;
 	color: #DFDF13;
 }
 
-.contenido-formulario h3{
-	font-size: 22px;
+.contenido-formulario p{
 	margin-top: 0;
 	color: #15153F;
 	font-weight: bold;
@@ -329,13 +326,13 @@ section .bold{
 	font-weight: bold;
 }
 .container.max-600{
-	max-width: 600px;
+	max-width: 650px;
 }
 h3.bold.white{
 	color:#FFFFFF;
 }
 h3.bold{
-	font-size: 24px;
+	font-size: 22px;
 	color: #15153F;
 	line-height: 1.3;
 }
@@ -343,10 +340,6 @@ section#tablet .container h3,
 section#unity .container h3{
 	color: #15153F;
 }
-section#unity .container p{
-	font-size: 16px;
-}
-
 section#unity .container p.bold{
 	color: #15153F;
 }
@@ -359,7 +352,7 @@ section#unity .container p.bold{
 	transition: padding .5s ease;
 }
 .container .contenido-tablet p{
-	font-size: 20px;
+	font-size: 18px;
 }
 .container .contenido-video{
 	padding: 30px 80px;
@@ -382,14 +375,14 @@ section .container.tablet img{
 }
 
 section#product .container .col-md-4{
-	padding: 30px 64px;
+	padding: 30px 90px;
 	-webkit-transition: padding.5s ease;
 	-moz-transition: padding .5s ease;
 	-o-transition: padding .5s ease;
 	transition: padding .5s ease;
 }
 section#product .container .col-md-4 h3{
-    font-size: 20px;
+    font-size: 18px;
     max-width: 225px;
     margin: auto;
     line-height: 1.2;
@@ -526,7 +519,7 @@ i.circular{
 }
 
 p{
-	font-size: 18px;
+	font-size: 16px;
 	-webkit-transition: font-size .3s ease;
 	   -moz-transition: font-size .3s ease;
 	    -ms-transition: font-size .3s ease;
@@ -605,10 +598,10 @@ a.call-me{
 	background-color: #A37883;
 }
 section#faq h3.bold.m-b-0{
-	font-size: 24px;
+	font-size: 22px;
 }
 section#faq h3.bold{
-	font-size: 20px;
+	font-size: 18px;
 }
 @media ( min-width : 768px) {
 	nav.navbar.navbar-default{
@@ -876,9 +869,4 @@ textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus {
 
 .form-control{
 	border: 0.3px solid #e2e2e2 !important;
-	font-family: 'Atlas Grotesk Web', sans-serif !important;
 }
-
-.navbar a{
-	font-family: 'Atlas Grotesk Web Bold' !important;
-} 
