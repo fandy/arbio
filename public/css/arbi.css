@@ -375,7 +375,7 @@ section .container.tablet img{
 }
 
 section#product .container .col-md-4{
-	padding: 30px 90px;
+	padding: 30px 35px;
 	-webkit-transition: padding.5s ease;
 	-moz-transition: padding .5s ease;
 	-o-transition: padding .5s ease;
@@ -603,6 +603,10 @@ section#faq h3.bold.m-b-0{
 section#faq h3.bold{
 	font-size: 18px;
 }
+p.height-responsive{
+	height: 100px;
+	overflow-y: hidden;
+}
 @media ( min-width : 768px) {
 	nav.navbar.navbar-default{
 		background-color: transparent;
@@ -731,14 +735,14 @@ section#faq h3.bold{
 }
 @media (max-width : 992px) {
 	section#product .container .col-md-4{
-    	padding: 30px 40px;
-	}
-	p{
-		font-size: 16px !important;
+    	padding: 30px 20px;
 	}
 	.container .contenido-tablet{
 		padding: 70px;
 		text-align: center;
+	}
+	p.height-responsive {
+	    height: 145px;
 	}
 }
 
@@ -829,6 +833,12 @@ section#faq h3.bold{
 	#faq .col-sm-12{
 		text-align: center;
 	}
+	section#product .container .col-md-4 {
+	    padding: 30px 40px;
+	}
+	p.height-responsive{
+		height: 100%;
+	}
 }
 
 @media (max-width : 680px) {
@@ -858,7 +868,7 @@ section#faq h3.bold{
     	padding: 10px 35px;
 	}
 	section#product .container .col-md-4 {
-	    padding: 30px 40px;
+	    padding: 30px 35px;
 	}
 	.container.max-600 {
 		padding: 0 35px;
