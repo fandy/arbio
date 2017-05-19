@@ -826,6 +826,9 @@ section#faq h3.bold{
 		display: block !important;
 		opacity: 1;
 	}
+	#faq .col-sm-12{
+		text-align: center;
+	}
 }
 
 @media (max-width : 680px) {
