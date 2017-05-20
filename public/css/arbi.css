@@ -215,7 +215,17 @@ section video {
     text-transform: uppercase;
     color: #FFFFFF;
 }
-
+.navbar-right button{
+    border: 2px solid #8A6181;
+    border-radius: 20px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+	font-weight: bold;
+	line-height: 1;
+}
 
 .col-md-12.down{
     position: absolute;
@@ -229,7 +239,7 @@ section video {
 }
 
 .col-md-12.down a{
-	background-color: #8D126F;
+	background-color: #581E4C;
 	height: 45px;
     min-width: 45px;
     width: 45px;
@@ -243,10 +253,11 @@ section video {
 
 .mdl-button.mdl-js-button.mdl-button--raised{
 	margin-top: 11px;
-	background-color: #8D126F;
+	background-color: #581E4C;
 	text-transform: initial;
 	color: #FFFFFF;
 	font-weight: bold;
+	padding: 0 25px;
 }
 .mdl-button.mdl-js-button.mdl-button--raised.register{
 	width: 100%;
@@ -264,14 +275,9 @@ section video {
 	font-weight: bold;
 }
 
-.contenido-main p{
-	font-family: "Open Sans",Verdana,Arial,Helvetica,sans-serif;
-	color: #DFDF13;
-}
-
 .contenido-formulario p{
 	margin-top: 0;
-	color: #15153F;
+	color: #581E4C;
 	font-weight: bold;
 }
 
@@ -670,22 +676,12 @@ p.height-responsive{
 	}
 
 	.navbar-right button{
-		border: 2px solid #D92B2E;
-		background-color: #D92B2E !important;
-		color: #FFFFFF !important;
-		-webkit-transition: all 1s ease;
-	    -moz-transition: all 1s ease;
-	    -o-transition: all 1s ease;
-	    -ms-transition: all 1s ease;
-		transition: all 1s ease;
-		font-weight: bold;
-		line-height: 1;
 		margin-right: 20px;
 	}
 
 	.navbarcolor .navbar-collapse .navbar-right button{
 		background-color: #FFFFFF !important;
-		color: #D92B2E!important;
+		color: #581E4C!important;
 		margin-top: 15px;
 	}
 
