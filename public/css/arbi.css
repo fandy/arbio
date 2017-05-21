@@ -599,6 +599,7 @@ a.call-me{
 .mdl-card-pricing .mdl-card__supporting-text ul li{
 	padding: 10px;
     border-top: 1px solid #C2BFC1;
+    font-size: 16px;
 }
 .mdl-card-pricing:nth-child(2) button,
 .mdl-card-pricing:nth-child(2) .mdl-card__title{
