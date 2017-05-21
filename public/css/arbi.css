@@ -341,7 +341,7 @@ section .bold{
 	font-weight: bold;
 }
 .container.max-600{
-	max-width: 650px;
+	max-width: 700px;
 }
 .container.max-850{
 	max-width: 850px;
@@ -668,7 +668,7 @@ p.height-responsive{
 	color: #F9674B;
 }
 footer{
-	padding: 50px;
+	padding: 40px;
 }
 footer ul li{
 	display: inline-block;
