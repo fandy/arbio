@@ -252,12 +252,12 @@ section video {
 }
 
 .mdl-button.mdl-js-button.mdl-button--raised{
-	margin-top: 11px;
 	background-color: #581E4C;
 	text-transform: initial;
 	color: #FFFFFF;
 	font-weight: bold;
 	padding: 0 25px;
+	margin: 12px 15px;
 }
 .mdl-button.mdl-js-button.mdl-button--raised.register{
 	width: 100%;
@@ -447,6 +447,9 @@ button.apple i{
 }
 .p-30{
 	padding: 0 30px !important;
+}
+.br-20{
+	border-radius: 20px;
 }
 .guion-small{
 	content : '';
@@ -682,7 +685,6 @@ p.height-responsive{
 	.navbarcolor .navbar-collapse .navbar-right button{
 		background-color: #FFFFFF !important;
 		color: #581E4C!important;
-		margin-top: 15px;
 	}
 
 	.navbarcolor .navbar-brand button{
