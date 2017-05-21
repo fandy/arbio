@@ -580,15 +580,15 @@ a.call-me{
 .mdl-card-pricing .mdl-card__title h2{
 	margin: auto;
 	display: block;
-	color: #66265A;
+	color: #FFFFFF;
 }
 .mdl-card-pricing .mdl-card__title h3{
 	font-size: 18px;
-	color: #4B4B4B;
+	color: #FFFFFF;
 	padding-top: 5px;
 }
 .mdl-card-pricing .mdl-card__title h1{
-	color: #52324C;
+	color: #FFFFFF;;
 }
 .mdl-card-pricing .mdl-card__title strong{
 	font-size: 50px;
@@ -598,13 +598,13 @@ a.call-me{
     border-top: 1px solid #C2BFC1;
 }
 .mdl-card-pricing:nth-child(2) .mdl-card__title{
-	background-color: #F29492;
+	background-color: #588B8B;
 }
 .mdl-card-pricing:nth-child(3) .mdl-card__title{
-	background-color: #A3B4A5;
+	background-color: #581E4C;
 }
 .mdl-card-pricing:nth-child(4) .mdl-card__title{
-	background-color: #A37883;
+	background-color: #39396F;
 }
 section#faq h3.bold.m-b-0{
 	font-size: 22px;
