@@ -197,7 +197,6 @@ section video {
 .btn-full {
 	width: 100%
 }
-
 .input-group {
 	margin-bottom: 15px;
 	width: 100%;
@@ -292,6 +291,7 @@ section video {
 
 .mdl-input-group{
 	overflow-y: hidden;
+	height: 80px;
 }
 
 input.form-control{
@@ -466,6 +466,9 @@ button.apple i{
 }
 .m-0{
 	margin: 0 ! important;
+}
+.m-r-0{
+	margin-right: 0 !important;
 }
 .p-30{
 	padding: 0 30px !important;
@@ -651,6 +654,18 @@ p.height-responsive{
 }
 .container .imagen-tablet{
 	padding: 120px 0;
+}
+.contenedor-touch p{
+	padding: 15px 0;
+}
+.contenedor-touch p i.mdi-email{
+	color: #39396F;
+}
+.contenedor-touch p i{
+	vertical-align: middle;
+	margin-right: 5px;
+	font-size: 18px;
+	color: #F9674B;
 }
 footer{
 	padding: 50px;
