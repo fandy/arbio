@@ -232,6 +232,7 @@ section video {
     transition: all 1s ease;
 	font-weight: bold;
 	line-height: 1;
+	margin: 12px 15px !important;
 }
 
 .col-md-12.down{
@@ -264,7 +265,7 @@ section video {
 	color: #FFFFFF;
 	font-weight: bold;
 	padding: 0 25px;
-	margin: 12px 15px;
+	margin: 15px auto;
 }
 .mdl-button.mdl-js-button.mdl-button--raised.register{
 	width: 100%;
@@ -842,7 +843,7 @@ footer ul li{
 	    position: absolute;
 	    left: -50px;
 	    opacity: 0;
-	    padding: 0px 5px;
+	    padding: 0 5px !important;
 	    height: 30px;
 	    vertical-align: middle;
 	    padding-top: 0;
