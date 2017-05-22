@@ -878,6 +878,9 @@ footer ul li{
 	p.height-responsive{
 		height: 100%;
 	}
+	footer .col-xs-12{
+		text-align: center;
+	}
 }
 
 @media (max-width : 680px) {
@@ -914,6 +917,9 @@ footer ul li{
 	}
 	.contenedor-touch {
 	    padding: 30px;
+	}
+	footer{
+		padding: 40px 20px;
 	}
 }
 textarea:focus, input.form-control:focus, input.form-control[type]:focus, .uneditable-input:focus {   
