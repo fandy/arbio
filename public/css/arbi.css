@@ -76,7 +76,7 @@ span.icon-logo:before{
 	position: absolute;
 	height: 3.5px;
 	width: 100%;
-	background: #e61f22;
+	background: #8D126F;
 	border-radius: 0;
 	margin-top: 0;
 	opacity: 1;
@@ -861,6 +861,7 @@ footer ul li{
 		visibility: visible;
 		display: block !important;
 		opacity: 1;
+	    padding: 0 5px;
 	}
 	#faq .col-sm-12{
 		text-align: center;
