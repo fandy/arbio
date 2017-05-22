@@ -296,6 +296,7 @@ section video {
 .mdl-input-group{
 	overflow-y: hidden;
 	height: 80px;
+	padding: 0;
 }
 
 input.form-control{
@@ -647,9 +648,13 @@ p.height-responsive{
 footer{
 	padding: 40px;
 }
+foter p{
+	font-size: 14px;
+}
 footer ul li{
 	display: inline-block;
 	padding: 0 15px;
+	font-size: 14px
 }
 @media ( min-width : 768px) {
 	nav.navbar.navbar-default{
