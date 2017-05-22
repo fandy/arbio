@@ -881,6 +881,14 @@ footer ul li{
 	footer .col-xs-12{
 		text-align: center;
 	}
+	.contenedor-touch h1{
+		font-size: 30px;
+		text-align: center;
+		margin-bottom: 0;
+	}
+	.contenedor-touch p.contact{
+		text-align: center;
+	}
 }
 
 @media (max-width : 680px) {
