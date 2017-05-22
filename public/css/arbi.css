@@ -200,12 +200,15 @@ section video {
 .input-group {
 	margin-bottom: 15px;
 	width: 100%;
-	border: 1px solid #581E4C;
 	border-radius: 3px;
 }
 
 .input-group input.form-control{
 	border-radius: 3px !important;
+}
+.input-group-btn button{
+	border-bottom-left-radius: 0;
+	border-top-left-radius: 0;
 }
 .input-group-btn button i{
 	vertical-align: middle;
@@ -439,37 +442,10 @@ button.apple i{
 .logos-augmented img{
 	margin: 0 10px;
 }
-.m-b-0{
-	margin-bottom: 0 !important;
-}
 .m-b-16{
 	margin-bottom: 16px !important;
 }
-.m-t-0{
-	margin-top: 0 !important;
-}
-.p-l-0{
-	padding-left: 0 !important;
-}
-.p-r-0{
-	padding-right: 0 !important
-}
-.p-b-0{
-	padding-bottom: 0 !important;
-}
-.p-rl-0{
-	padding-right: 0 !important;
-	padding-left: 0 !important; 
-}
-.p-0{
-	padding: 0 !important
-}
-.m-0{
-	margin: 0 ! important;
-}
-.m-r-0{
-	margin-right: 0 !important;
-}
+
 .p-30{
 	padding: 0 30px !important;
 }
