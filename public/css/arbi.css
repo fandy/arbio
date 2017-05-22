@@ -912,6 +912,9 @@ footer ul li{
 	.container.max-600 {
 		padding: 0 35px;
 	}
+	.contenedor-touch {
+	    padding: 30px;
+	}
 }
 textarea:focus, input.form-control:focus, input.form-control[type]:focus, .uneditable-input:focus {   
     border-color: rgba(229, 103, 23, 0.8);
