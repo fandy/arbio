@@ -548,9 +548,10 @@ a.call-me{
 	visibility: hidden;
 }
 .video-arbio{
-	position: absolute;
+	width: 50%;
+	position: relative;
 	right: 0;
-	bottom:0;
+	bottom:calc(100% + 100px);
 }
 .video-arbio button{
     position: absolute;
