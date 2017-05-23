@@ -548,10 +548,15 @@ a.call-me{
 	visibility: hidden;
 }
 .video-arbio{
-	width: 50%;
-	position: relative;
+	width: 100%;
+	max-width: 720px;
+	position: absolute;
 	right: 0;
-	bottom:calc(100% + 100px);
+	z-index: 99999;
+	margin-top: -300px;
+}
+.video-arbio video{
+	width: 100%;
 }
 .video-arbio button{
     position: absolute;
