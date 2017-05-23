@@ -548,6 +548,7 @@ a.call-me{
 	visibility: hidden;
 }
 .video-arbio{
+	background-color: #EAE6E6;
 	width: 100%;
 	max-width: 830px;
 	position: absolute;
