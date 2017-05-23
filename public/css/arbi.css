@@ -951,6 +951,16 @@ footer ul li{
 	footer{
 		padding: 40px 20px;
 	}
+	section#talet{
+		margin-top: 50px;
+	}
+	.video-arbio{
+		margin-top: -60px;
+	}
+	.video-arbio button{
+		left: calc(50% - 125px);
+	    max-width: 250px;
+	}
 }
 textarea:focus, input.form-control:focus, input.form-control[type]:focus, .uneditable-input:focus {   
     border-color: rgba(229, 103, 23, 0.8);
