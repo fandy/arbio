@@ -549,11 +549,11 @@ a.call-me{
 }
 .video-arbio{
 	width: 100%;
-	max-width: 850px;
+	max-width: 860px;
 	position: absolute;
 	right: 0;
 	z-index: 100;
-	margin-top: -420px;
+	margin-top: -400px;
 }
 .video-arbio video{
 	width: 100%;
@@ -561,10 +561,12 @@ a.call-me{
 .video-arbio button{
     position: absolute;
     top: calc(50% - 40px);
-    left: calc(50% - 100px); 
+    left: calc(50% - 150px);
     z-index: 10;
     height: 60px;
     border-radius: 8px;
+    max-width: 301px;
+    width: 100%;
 }
 .video-arbio button i{
     vertical-align: middle;
