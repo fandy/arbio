@@ -549,11 +549,11 @@ a.call-me{
 }
 .video-arbio{
 	width: 100%;
-	max-width: 720px;
+	max-width: 850px;
 	position: absolute;
 	right: 0;
 	z-index: 100;
-	margin-top: -300px;
+	margin-top: -420px;
 }
 .video-arbio video{
 	width: 100%;
