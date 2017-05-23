@@ -386,7 +386,7 @@ section#unity .container p.bold{
 	padding: 30px 80px;
 }	
 section#tablet .contenido-final{
-	max-width: 600px;
+	max-width: 794px;
     margin: auto;
     text-align: center;
     float: none;
@@ -493,7 +493,7 @@ a.blanco{
 	color: #FFFFFF;
 }
 .azul{
-	background-color: #39396F;
+	background-color: #212153;
 	color: #FFFFFF;
 }
 .verde{
@@ -595,9 +595,9 @@ a.call-me{
   	box-shadow: 0 14px 30px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22);
 }
 .mdl-card-pricing:HOVER{
-	-ms-transform: scale(1.05);
+	/*-ms-transform: scale(1.05);
     -webkit-transform: scale(1.05);
-    transform: scale(1.05);
+    transform: scale(1.05);*/
 }
 
 .mdl-card-pricing .mdl-card__title{
@@ -696,7 +696,7 @@ footer ul li{
 	.navbarcolor{
 		box-shadow: 0 1px 4px 0 rgba(99,114,130,0.15);
 		/*background-color: #FFFFFF !important;*/
-		background: rgba(255, 255, 255, 0.9) !important;
+		background: rgba(255, 255, 255, 1) !important;
 	    padding: 0px 50px !important;
 	}
 	.navbar-default .navbar-right>li>a{
@@ -974,4 +974,8 @@ textarea:focus, input.form-control:focus, input.form-control[type]:focus, .unedi
 
 .form-control{
 	border: 0.3px solid #e2e2e2 !important;
+}
+
+.mdl-button:hover {
+    box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.1);
 }
