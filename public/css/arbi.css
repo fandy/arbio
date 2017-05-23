@@ -372,6 +372,7 @@ section#unity .container p.bold{
 }
 .container .contenido-tablet{
 	padding: 120px;
+	padding-left: 0px;
 	text-align: left;
 	-webkit-transition: padding.5s ease;
 	-moz-transition: padding .5s ease;
