@@ -179,6 +179,7 @@ section {
 
 .section {
     padding: 20px 0 50px 0;
+    position: relative;
 }
 
 .contenido-main a{
@@ -546,7 +547,11 @@ p{
 a.call-me{
 	visibility: hidden;
 }
-
+.video-arbio{
+	position: absolute;
+	right: 0;
+	bottom:0;
+}
 .video-arbio button{
     position: absolute;
     top: calc(50% - 40px);
@@ -620,6 +625,15 @@ a.call-me{
 .mdl-card-pricing:nth-child(4) .mdl-card__title{
 	background-color: #39396F !important;
 }
+/*section.existing{
+	position: relative;
+}
+section.existing .col-md-7.video-arbio{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+} */
+
 section#faq h3.bold.m-b-0{
 	font-size: 22px;
 }
