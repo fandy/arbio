@@ -377,6 +377,7 @@ section#unity .container p.bold{
 	-moz-transition: padding .5s ease;
 	-o-transition: padding .5s ease;
 	transition: padding .5s ease;
+	padding-bottom: 0;
 }
 .container .contenido-tablet p{
 	font-size: 18px;
@@ -656,6 +657,7 @@ p.height-responsive{
 }
 .container .imagen-tablet{
 	padding: 120px 0;
+	padding-bottom: 0;
 }
 .contenedor-touch p{
 	padding: 15px 0;
