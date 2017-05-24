@@ -402,7 +402,10 @@ section .container.tablet img{
 	width: 550px;
 	max-height: 400px;
 }
-
+section#product .row{
+	margin: 15px;
+	box-shadow: 0px 5px 25px rgba(0,0,0,0.25), 0 5px 40px rgba(0,0,0,0.22);
+} 
 section#product .container .col-md-4{
 	padding: 30px 35px;
 	-webkit-transition: padding.5s ease;
@@ -593,7 +596,6 @@ a.call-me{
 	vertical-align: top;
     margin: 15px 40px;
   	transition: all 0.5s cubic-bezier(.25,.8,.25,1);
-  	box-shadow: 0 14px 30px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22);
 }
 .mdl-card-pricing:HOVER{
 	/*-ms-transform: scale(1.05);
@@ -608,6 +610,7 @@ a.call-me{
 	margin: auto;
 	display: block;
 	color: #FFFFFF;
+	font-size: 18px
 }
 .mdl-card-pricing .mdl-card__title h3{
 	font-size: 18px;
@@ -615,7 +618,9 @@ a.call-me{
 	padding-top: 5px;
 }
 .mdl-card-pricing .mdl-card__title h1{
-	color: #FFFFFF;;
+	color: #FFFFFF;
+	font-size: 50px;
+    font-weight: lighter;
 }
 .mdl-card-pricing .mdl-card__title strong{
 	font-size: 50px;
@@ -625,6 +630,16 @@ a.call-me{
     border-top: 1px solid #C2BFC1;
     font-size: 16px;
 }
+.mdl-card-pricing:nth-child(2){
+  	box-shadow: 0 14px 30px rgba(88, 139, 139, 0.45), 0 5px 5px rgba(0,0,0,0.22);
+}
+.mdl-card-pricing:nth-child(3){
+  	box-shadow: 0 14px 30px rgba(88, 30, 76, 0.45), 0 5px 5px rgba(0,0,0,0.22);
+}
+.mdl-card-pricing:nth-child(4){
+  	box-shadow: 0 14px 30px rgba(88, 139, 139, 0.45), 0 5px 5px rgba(0,0,0,0.22);
+}
+
 .mdl-card-pricing:nth-child(2) button,
 .mdl-card-pricing:nth-child(2) .mdl-card__title{
 	background-color: #588B8B !important;
@@ -672,16 +687,22 @@ p.height-responsive{
 	font-size: 18px;
 	color: #F9674B;
 }
+section.background-divisor{
+	background-color: #E8E9ED;
+	padding: 25px;
+}
 footer{
 	padding: 40px;
 }
-foter p{
+footer p{
 	font-size: 14px;
+	opacity: 0.5;
 }
 footer ul li{
 	display: inline-block;
 	padding: 0 15px;
-	font-size: 14px
+	font-size: 14px;
+	opacity: 0.5;
 }
 @media ( min-width : 768px) {
 	nav.navbar.navbar-default{
