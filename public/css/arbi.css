@@ -9,6 +9,10 @@ body {
 	letter-spacing: 1px;
 }
 
+body{
+
+}
+
 h1, h2, h3,.mdl-button{
 	overflow-y: hidden;
 	font-family: "Open Sans",Verdana,Arial,Helvetica,sans-serif;
@@ -40,6 +44,26 @@ span.icon-logo:before{
 	font-weight: 400;
 	font-style: normal;
 	font-stretch: normal;
+}
+
+div#load_screen {
+	background: #FFFFFF url("../images/arbi_logo.png") no-repeat
+	center center;
+	background-size: 230px;
+	opacity: 1;
+	position: fixed;
+	z-index: 999999;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+
+div#load_screen>div#loading {
+	color: #FFF;
+	width: 120px;
+	height: 24px;
+	margin: 300px auto;
 }
 
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{

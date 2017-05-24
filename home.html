@@ -49,7 +49,9 @@
         </div>
       </div>
     </nav>
-
+    <div id="load_screen">
+      <div id="loading"></div>
+    </div>
     <section id="section-home">
       <div class="fondo-imagen fondo-responsive"></div>
       <div id="opacity"></div>
@@ -460,6 +462,12 @@
     <script src="public/js/arbi.js"></script>
     <script src="public/js/jshome.js"></script>
     <script type="text/javascript">
+      window.addEventListener("load", function() {
+        setTimeout(function() {
+        var load_screen = document.getElementById("load_screen");
+        document.body.removeChild(load_screen);}, 500);
+      });
+
       var vid = document.getElementById("myvideo");
       function videoplay() { 
         vid.autoplay = true;
