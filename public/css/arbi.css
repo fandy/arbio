@@ -47,7 +47,7 @@ span.icon-logo:before{
 }
 
 div#load_screen {
-	background: #FFFFFF url("../images/arbi_logo.png") no-repeat
+	background: #FFFFFF url("../images/arbi_loading.gif") no-repeat
 	center center;
 	background-size: 230px;
 	opacity: 1;
