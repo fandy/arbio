@@ -50,6 +50,9 @@
         </div>
       </div>
     </nav>
+    <div id="load_screen">
+      <div id="loading"></div>
+    </div>
     <section>
     	
     </section>
@@ -58,59 +61,10 @@
     		<div class="row-fluid">
     			<div class="mdl-card mdl-card-summary">
 		    		<div class="mdl-card__title">
-		    			<h2 class="mdl-card__title-text">Summary</h2> 
+		    			<h2 class="mdl-card__title-text">Payment is processed succesfully. You will receive an confirmation email and an email with your account credential. If you require any support visit our support page in your account or contact us on contact@arbio.io.</h2> 
 		    		</div>
-		    		<div class="mdl-card__supporting-text">
-
-		    		</div>
-		    	</div>
-		    	<div class="mdl-card mdl-card-summary">
-		    		<div class="mdl-card__title">
-		    			<h2 class="mdl-card__title-text">Register for an account</h2> 
-		    		</div>
-		    		<div class="mdl-card__supporting-text formulario">
-						<div class="col-md-12">
-			                <div class="input-group">
-			                  <input type="text" class="form-control" placeholder="First name" aria-describedby="nameN">
-			                  <span class="input-group-btn">
-			                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect m-0 height-45 morado" type="button" tabindex="-1"><i class="mdi mdi-done"></i></button>
-			                  </span>
-			                </div>
-		                </div>
-			            <div class="col-md-12">
-			                <div class="input-group">
-			                  <input type="text" class="form-control" placeholder="Last name" aria-describedby="nameN">
-			                  <span class="input-group-btn">
-			                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect m-0 height-45 morado" type="button" tabindex="-1"><i class="mdi mdi-done"></i></button>
-			                  </span>
-			                </div>
-			            </div>
-			            <div class="col-md-12 m-b-16">
-			                <div class="input-group">
-			                  <input type="text" class="form-control" placeholder="Email" aria-describedby="nameN">
-			                  <span class="input-group-btn">
-			                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect m-0 height-45 morado" type="button" tabindex="-1"><i class="mdi mdi-email"></i></button>
-			                  </span>
-			                </div>
-			            </div>
-			            <div class="col-md-12 text-center">
-			                <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect register height-45 m-0"><i class="fa fa-paper-plane-o"></i>Create account</button>
-			            </div>
-		    		</div>
-		    	</div>
-		    	<div class="mdl-card mdl-card-summary">
-		    		<div class="mdl-card__title">
-		    		</div>
-		    		<div class="mdl-card__supporting-text checkout">
-						<div class="col-md-12">
-							<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-1">
-							  <input type="checkbox" id="checkbox-1" class="mdl-checkbox__input">
-							  <span class="mdl-checkbox__label">I accept the Terms & Conditions</span>
-							</label>
-						</div>
-						<div class="col-md-12 text-center">
-			                <a href="checkout.html"><button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect register height-45 m-0"><i class="fa fa-paper-plane-o"></i>CHECK OUT</button></a>
-			            </div>
+		    		<div class="mdl-card__supporting-text text-center icon p-50">
+						<i class="mdi mdi-check"></i>
 		    		</div>
 		    	</div>
     		</div>
@@ -142,5 +96,12 @@
     <script src="public/components/mdl/js/material.min.js"></script>
     <script src="public/components/OwlCarousel2-2.2.1/dist/owl.carousel.min.js"></script>
     <script src="public/js/jspricing.js"></script>
+    <script type="text/javascript">
+    	window.addEventListener("load", function() {
+        setTimeout(function() {
+        var load_screen = document.getElementById("load_screen");
+        document.body.removeChild(load_screen);}, 500);
+      });
+    </script>
 </body>
 </html>

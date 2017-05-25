@@ -697,7 +697,16 @@ a.call-me{
 .mdl-card-summary .mdl-card__supporting-text.formulario{
 	max-width: 380px;
 	margin: 60px auto;
-
+}
+.mdl-card-summary .mdl-card__supporting-text.checkout{
+	max-width: 650px;
+	margin: 60px auto;
+}
+.mdl-card-summary .mdl-card__supporting-text.icon i{
+    font-size: 100px;
+    border: 8px solid #91DC5A;
+    border-radius: 50%;
+    color: #91DC5A;
 }
 section#faq h3.bold.m-b-0{
 	font-size: 22px;
