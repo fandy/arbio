@@ -38,28 +38,11 @@ $(window).on('load', function () {
 	resizeSection();
 });
 
-var designedFor = $('#owlDesignedFor');
 $(document).ready(function () {
 	$('#nav-icon3').click(function(){
 		$(this).toggleClass('open');
 	});
 	resizeSection();
-	designedFor.owlCarousel({
-	    items:3,
-	    nav: false,
-        loop:true,
-	    responsive:{
-	        0:{
-	            items:1,
-	        },
-	        720:{
-	            items:2,
-	        },
-	        1000:{
-	            items:3,
-	        }
-	    }
-	});
 });
 
 $(window).resize(function () {

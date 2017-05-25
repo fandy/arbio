@@ -10,7 +10,7 @@ body {
 }
 
 body{
-
+	background-color: #E8E9ED;
 }
 
 h1, h2, h3,.mdl-button{
@@ -198,7 +198,6 @@ section {
 	margin: 0;
 	width: 100%;
 	height: auto;
-	background-color: #FFFFFF;
 }
 
 .section {
@@ -451,7 +450,7 @@ button.play-store{
 button.apple{
 	background-color: #588B8B !important;
 }
-button.height-45{
+.mdl-button.height-45{
 	height: 45px;
 }
 
@@ -640,12 +639,12 @@ a.call-me{
     margin: 15px 40px;
   	transition: all 0.5s cubic-bezier(.25,.8,.25,1);
 }
-.mdl-card-pricing:HOVER{
-	/*-ms-transform: scale(1.05);
-    -webkit-transform: scale(1.05);
-    transform: scale(1.05);*/
-}
 
+.mdl-card-summary{
+	max-width: 1000px;
+	margin: 40px auto;
+	box-shadow: 0px 5px 25px rgba(0,0,0,0.25), 0 5px 40px rgba(0,0,0,0.22);
+}
 .mdl-card-pricing .mdl-card__title{
 	display: block;
 }
@@ -683,27 +682,23 @@ a.call-me{
   	box-shadow: 0 14px 30px rgba(88, 139, 139, 0.45), 0 5px 5px rgba(0,0,0,0.22);
 }
 
-.mdl-card-pricing:nth-child(2) button,
+.mdl-card-pricing:nth-child(2) .mdl-button,
 .mdl-card-pricing:nth-child(2) .mdl-card__title{
 	background-color: #588B8B !important;
 }
-.mdl-card-pricing:nth-child(3) button,
+.mdl-card-pricing:nth-child(3) .mdl-button,
 .mdl-card-pricing:nth-child(3) .mdl-card__title{
 	background-color: #581E4C !important;
 }
-.mdl-card-pricing:nth-child(4) button,
+.mdl-card-pricing:nth-child(4) .mdl-button,
 .mdl-card-pricing:nth-child(4) .mdl-card__title{
 	background-color: #39396F !important;
 }
-/*section.existing{
-	position: relative;
-}
-section.existing .col-md-7.video-arbio{
-	position: absolute;
-	right: 0;
-	bottom: 0;
-} */
+.mdl-card-summary .mdl-card__supporting-text.formulario{
+	max-width: 380px;
+	margin: 60px auto;
 
+}
 section#faq h3.bold.m-b-0{
 	font-size: 22px;
 }
