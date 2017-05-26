@@ -790,6 +790,11 @@ tr th:nth-child(2),
 tr td:nth-child(2){
 	text-align: right;
 }
+
+
+
+
+
 @media ( min-width : 768px) {
 	nav.navbar.navbar-default{
 		background-color: transparent;
