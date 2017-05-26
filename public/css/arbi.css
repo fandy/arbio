@@ -705,6 +705,9 @@ a.call-me{
     font-weight: bold;
     color: #757575;
 }
+.mdl-card-summary p{
+	padding: 10px 50px;
+}
 .mdl-card-summary .mdl-card__supporting-text.formulario{
 	max-width: 380px;
 	margin: 60px auto;
