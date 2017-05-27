@@ -1,7 +1,5 @@
 $(document).ready(function(){
     $('#view-video').click(function(){
-         /*$('video')[0].webkitEnterFullScreen();
-         $('video')[0].mozRequestFullScreen();*/
 		 $(this).hide();
 		 $('video')[0].setAttribute("controls","controls") 
     });

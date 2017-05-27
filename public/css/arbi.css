@@ -791,9 +791,10 @@ tr td:nth-child(2){
 	text-align: right;
 }
 
-
-
-
+/* PAGE PRICING */
+.mdl-checkbox__label{
+	font-size: 14px;
+}
 
 @media ( min-width : 768px) {
 	nav.navbar.navbar-default{
