@@ -828,7 +828,7 @@ tr td:nth-child(2){
 	color: #212153;
 }
 .form-wizard.form-wizard-horizontal .form-wizard-nav .nav-justified>li{
-	width: 120px;
+	width: 125px;
     display: inline-block;
     margin: 0 50px;
     background-color: #FFFFFF;
@@ -1119,6 +1119,17 @@ tr td:nth-child(2){
 	.video-arbio button{
 		left: calc(50% - 125px);
 	    max-width: 250px;
+	}
+	.form-wizard.form-wizard-horizontal .nav .step{
+		font-size: 35px;
+		width: 50px;
+	}
+	.form-wizard.form-wizard-horizontal .form-wizard-nav .nav-justified>li{
+		margin:0;
+		width: 60px;
+	}
+	.form-wizard.form-wizard-horizontal .nav .title{
+		display: none;
 	}
 }
 textarea:focus, input.form-control:focus, input.form-control[type]:focus, .uneditable-input:focus {   
