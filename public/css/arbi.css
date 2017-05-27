@@ -718,7 +718,7 @@ a.call-me{
 	margin: 60px auto;
 }
 .mdl-card-summary .mdl-card__supporting-text.icon i{
-    font-size: 100px;
+    font-size: 80px;
     border: 8px solid #91DC5A;
     border-radius: 50%;
     color: #91DC5A;
@@ -1066,6 +1066,9 @@ tr td:nth-child(2){
 	}
 	.contenedor-touch p.contact{
 		text-align: center;
+	}
+	.mdl-card-summary p{
+		padding: 0;
 	}
 }
 
