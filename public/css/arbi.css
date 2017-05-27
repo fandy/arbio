@@ -711,6 +711,7 @@ a.call-me{
 .mdl-card-summary .mdl-card__supporting-text.formulario{
 	max-width: 380px;
 	margin: 60px auto;
+	padding: 0;
 }
 .mdl-card-summary .mdl-card__supporting-text.checkout{
 	max-width: 650px;
@@ -938,7 +939,7 @@ tr td:nth-child(2){
 
 @media (max-width : 768px) {
 	.navbarcolor{
-		padding-left: 0;
+		padding-left: 0 !important;
 	}
 	.navbarcolor .navbar-brand{
 		left: calc(50% - 22px);
