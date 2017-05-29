@@ -844,15 +844,28 @@ tr td:nth-child(2){
 	margin: 20px 0;
 	box-shadow: 0 14px 30px rgba(88, 30, 76, 0.45), 0 5px 5px rgba(0,0,0,0.22);
 }
+.mdl-card-article.blog{
+	padding: 60px !important;
+}
 .mdl-card-article img{
 	width: 100%;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 280px;
+}
+.mdl-card-article .mdl-card__title.margin{
+	padding: 40px 150px;
 }
 .mdl-card-article .mdl-card__actions{
 	text-align: left !important; 
 	padding-bottom: 0;
 }
-.mdl-card-article .mdl-card__actions button{
+.mdl-card-article .mdl-card__actions .mdl-button{
 	border-radius: 20px;
+	text-decoration: none;
+}
+.section.padding{
+	padding: 120px 0 30px 0 !important;
 }
 @media ( min-width : 768px) {
 	nav.navbar.navbar-default{
