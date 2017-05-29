@@ -854,7 +854,8 @@ tr td:nth-child(2){
     height: 280px;
 }
 .mdl-card-article .mdl-card__title.margin{
-	padding: 40px 150px;
+    max-width: 550px;
+    margin: auto;
 }
 .mdl-card-article .mdl-card__actions{
 	text-align: left !important; 
