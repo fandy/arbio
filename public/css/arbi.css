@@ -1099,6 +1099,9 @@ tr td:nth-child(2){
 	.mdl-card-summary p{
 		padding: 0;
 	}
+	.mdl-card-article.blog{
+		padding: 10px !important;
+	}
 }
 
 @media (max-width : 680px) {
