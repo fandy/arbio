@@ -839,6 +839,21 @@ tr td:nth-child(2){
 	position: inherit;
 	bottom: 0;
 }
+.mdl-card-article{
+	display: block;
+	margin: 20px 0;
+	box-shadow: 0 14px 30px rgba(88, 30, 76, 0.45), 0 5px 5px rgba(0,0,0,0.22);
+}
+.mdl-card-article img{
+	width: 100%;
+}
+.mdl-card-article .mdl-card__actions{
+	text-align: left !important; 
+	padding-bottom: 0;
+}
+.mdl-card-article .mdl-card__actions button{
+	border-radius: 20px;
+}
 @media ( min-width : 768px) {
 	nav.navbar.navbar-default{
 		background-color: transparent;
