@@ -1126,6 +1126,9 @@ tr td:nth-child(2){
 	.form-wizard.form-wizard-horizontal .form-wizard-nav .nav-justified>li{
 		margin: 0 20px;
 	}
+	.mdl-card-article{
+		text-align: center;
+	}
 }
 
 @media (max-width : 680px) {
