@@ -860,6 +860,9 @@ tr td:nth-child(2){
     max-width: 550px;
     margin: auto;
 }
+.mdl-card-article .mdl-card__title p{
+	color: #581E4C;
+}
 .mdl-card-article .mdl-card__actions{
 	text-align: left !important; 
 	padding-bottom: 0;
