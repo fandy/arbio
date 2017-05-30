@@ -1212,6 +1212,9 @@ tr td:nth-child(2){
 		width: 40%;
 		top: 32px;
 	}
+	.mdl-card-article img{
+		height: inherit;
+	}
 }
 textarea:focus, input.form-control:focus, input.form-control[type]:focus, .uneditable-input:focus {   
     border-color: rgba(229, 103, 23, 0.8);
