@@ -1135,6 +1135,10 @@ tr td:nth-child(2){
 	.mdl-card-article{
 		text-align: center;
 	}
+	.mdl-card-article .mdl-card__actions{
+		text-align: center !important;
+		padding-bottom: 16px;
+	}
 }
 
 @media (max-width : 680px) {
