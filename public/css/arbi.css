@@ -1021,6 +1021,9 @@ tr td:nth-child(2){
 	p.height-responsive {
 	    height: 145px;
 	}
+	.mdl-card-article img{
+		height: 380px;
+	}
 }
 
 @media (max-width : 768px) {
