@@ -868,6 +868,17 @@ tr td:nth-child(2){
 .section.padding{
 	padding: 120px 0 30px 0 !important;
 }
+.feature img{
+	max-width: 300px;
+	width: 100%;
+}
+.feature:nth-child(2) img{
+	max-width: 400px;
+	width: 100%;
+}
+.col-sm-6.alinear-centro{
+	padding:  50px 0;
+}
 @media ( min-width : 768px) {
 	nav.navbar.navbar-default{
 		background-color: transparent;
@@ -1101,6 +1112,13 @@ tr td:nth-child(2){
 	}
 	.mdl-card-article.blog{
 		padding: 10px !important;
+	}
+	.col-sm-6.alinear-centro{
+		text-align: center;
+		padding: 0;
+	}
+	#questions .col-sm-12{
+		text-align: center;
 	}
 }
 
