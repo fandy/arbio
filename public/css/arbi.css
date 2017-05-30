@@ -1123,6 +1123,9 @@ tr td:nth-child(2){
 	#questions .col-sm-12{
 		text-align: center;
 	}
+	.form-wizard.form-wizard-horizontal .form-wizard-nav .nav-justified>li{
+		margin: 0 20px;
+	}
 }
 
 @media (max-width : 680px) {
@@ -1134,6 +1137,17 @@ tr td:nth-child(2){
 		text-align: center;
 	}
 }	
+
+@media (max-width : 560px) {
+	.form-wizard.form-wizard-horizontal .form-wizard-nav .nav-justified>li{
+		margin: 0 10px;
+	}
+}
+@media (max-width : 500px) {
+	.form-wizard.form-wizard-horizontal .form-wizard-nav .nav-justified>li{
+		margin: 0;
+	}
+}
 
 @media (max-width : 460px) {
 	.contenido-main h1{
