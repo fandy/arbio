@@ -1178,11 +1178,19 @@ tr td:nth-child(2){
 		width: 50px;
 	}
 	.form-wizard.form-wizard-horizontal .form-wizard-nav .nav-justified>li{
-		margin:0;
-		width: 60px;
+		margin:0 10px;
+		width: 50px;
+	}
+	.form-wizard.form-wizard-horizontal .form-wizard-nav .nav-justified>li>a{
+		padding: 0;
+		margin-bottom: 0;
 	}
 	.form-wizard.form-wizard-horizontal .nav .title{
 		display: none;
+	}
+	.form-wizard.form-wizard-horizontal .form-wizard-nav .progress{
+		width: 40%;
+		top: 32px;
 	}
 }
 textarea:focus, input.form-control:focus, input.form-control[type]:focus, .uneditable-input:focus {   
