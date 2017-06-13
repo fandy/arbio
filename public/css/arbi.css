@@ -424,6 +424,10 @@ section .container.tablet img{
 	width: 550px;
 	max-height: 400px;
 }
+section#tablet .contenido-final p{
+	font-size: 18px;
+	font-weight: 600;
+}
 section#product .row{
 	margin: 15px;
 	box-shadow: 0px 5px 25px rgba(0,0,0,0.25), 0 5px 40px rgba(0,0,0,0.22);
@@ -556,6 +560,7 @@ i.circular{
     padding: 0;
     width: 34px;
     color: #fff;
+    margin-bottom: 20px;
 }
 
 p{
@@ -771,7 +776,6 @@ footer{
 }
 footer p{
 	font-size: 14px;
-	opacity: 0.5;
 }
 footer ul{
 	padding-left: 0;
@@ -780,7 +784,6 @@ footer ul li{
 	display: inline-block;
 	padding: 0 15px;
 	font-size: 14px;
-	opacity: 0.5;
 }
 tbody tr:nth-child(1),
 tbody tr:nth-child(3){
