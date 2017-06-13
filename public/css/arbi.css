@@ -785,6 +785,11 @@ footer ul li{
 	padding: 0 15px;
 	font-size: 14px;
 }
+footer ul li a:hover,
+footer ul li a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
 tbody tr:nth-child(1),
 tbody tr:nth-child(3){
 	border-bottom: 1px solid #757575;
