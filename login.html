@@ -34,7 +34,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect call-me" href="tel: +5199989812">Call me back</a>
+        <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect call-me" data-toggle="modal" data-target="#Schedule">Call me back</a>
         <a class="navbar-brand" href="home.html"><i class="mdi mdi-logo_nuevo"></i></a>
       </div>
 
@@ -287,8 +287,43 @@
       </div>
     </footer>
 
-	
-
+<div class="modal fade" id="Schedule" tabindex="-1" role="dialog" aria-labelledby="simpleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+                <div class="mdl-card mdl-card-register">
+                <div class="mdl-card__supporting-text">
+                  <div class="col-md-12">
+                    <div class="input-group">
+                      <input type="text" class="form-control" placeholder="Full name" aria-describedby="nameN">
+                      <span class="input-group-btn">
+                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect m-0 height-45 morado p-0" type="button" tabindex="-1"><i class="mdi mdi-done"></i></button>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="input-group">
+                      <input type="text" class="form-control" placeholder="Company name" aria-describedby="nameN">
+                      <span class="input-group-btn">
+                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect m-0 height-45 morado p-0" type="button" tabindex="-1"><i class="mdi mdi-done"></i></button>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="col-md-12 m-b-16">
+                    <div class="input-group">
+                      <input type="text" class="form-control" placeholder="Phone number incl. landcode" aria-describedby="nameN">
+                      <span class="input-group-btn">
+                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect m-0 height-45 morado p-0" type="button" tabindex="-1"><i class="mdi mdi-done"></i></button>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="col-md-12 text-center">
+                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect register height-45 m-0"><i class="fa fa-paper-plane-o"></i>Call me back!</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>     
+    </div>
   <script src="public/components/jquery-3.2.1/jquery-3.2.1.min.js"></script>
   <script src="public/components/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
   <script src="public/components/mdl/js/material.min.js"></script>

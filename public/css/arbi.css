@@ -903,6 +903,12 @@ tr td:nth-child(2){
 .col-sm-6.alinear-centro{
 	padding:  50px 0;
 }
+
+.modal-content{
+	box-shadow: none !important;
+	background-color: transparent !important;
+	border: none !important;
+}
 @media ( min-width : 768px) {
 	nav.navbar.navbar-default{
 		background-color: transparent;
