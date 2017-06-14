@@ -1,7 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="msapplication-TileColor" content="#ffffff">
@@ -18,213 +19,40 @@
     <link rel="stylesheet" href="public/fonts/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="public/components/OwlCarousel2-2.2.1/dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="public/components/OwlCarousel2-2.2.1/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="public/components/wizard/css/wizard.css">
     <link rel="stylesheet" href="public/components/mdl/css/material.min.css">
     <link rel="stylesheet" href="public/css/m-p.css">
     <link rel="stylesheet" href="public/css/arbi.css">
-  </head>
-  <body>
-    <nav class="navbar navbar-default navbar-fixed-top text-center">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button id="nav-icon3" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-          </button>
-          <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect call-me" href="tel: +5199989812">Schedule a call-back</a>
-          <a class="navbar-brand" href="#section-home"><i class="mdi mdi-logo_nuevo"></i></a>
-        </div>
-
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav">
-            <li><a href="feature.html">Features</a></li>
-            <li><a href="pricing_page.html">Pricing</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="#contact_us">Contact</a></li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">Login</button></li>
-          </ul>
-        </div>
+</head>
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top text-center navbarcolor">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button id="nav-icon3" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect call-me" href="tel: +5199989812">Call me back</a>
+        <a class="navbar-brand" href="home.html"><i class="mdi mdi-logo_nuevo"></i></a>
       </div>
-    </nav>
-    <div id="load_screen">
-      <div id="loading"></div>
+
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="feature.html">Features</a></li>
+          <li><a href="pricing_page.html">Pricing</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="home.html#contact_us">Contact</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">Login</button></li>
+        </ul>
+      </div>
     </div>
-    <section id="section-home">
-      <div class="fondo-imagen fondo-responsive"></div>
-      <div id="opacity"></div>
-      <div id="puntos"></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 col-sm-7 height main p-l-0 p-r-0">
-            <div class="contenido-main text-left">
-              <h1 class="m-t-0">Remember Pokemon Go? Use the same Augmented Reality tech in your sales process.</h1>
-              <p class="m-b-0">Compatible with your 3D software. Upload your 3D product designs and go.</p>
-              <div class="col-md-12 text-center register-direction" style="display: none;">
-                <a href="#register" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect register blanco m-0 m-t-16"><i class="fa fa-paper-plane-o"></i>Start trial</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-5 height formulario">
-            <div class="row-fluid">
-              <div class="contenido-formulario">
-                <div class="col-md-12 text-center">
-                  <p>START YOUR FREE 10 - DAY TRIAL!</p>
-                </div>
-                <div class="col-md-12">
-                  <div class="input-group">
-                    <input type="text" class="form-control" placeholder="First name" aria-describedby="name1">
-                    <span class="input-group-btn">
-                      <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect m-0 height-45 morado p-0" type="button" tabindex="-1"><i class="mdi mdi-done"></i></button>
-                    </span>
-                  </div>
-                </div>
-                <div class="col-md-12">
-                  <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Last name" aria-describedby="name2">
-                    <span class="input-group-btn">
-                      <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect m-0 height-45 morado p-0" type="button" tabindex="-1"><i class="mdi mdi-done"></i></button>
-                    </span>
-                  </div>
-                </div>
-                <div class="col-md-12 m-b-16">
-                  <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Email" aria-describedby="name3">
-                    <span class="input-group-btn">
-                      <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect m-0 height-45 morado p-0" type="button" tabindex="-1"><i class="mdi mdi-email"></i></button>
-                    </span>
-                  </div>
-                </div>
-                <div class="col-md-12 text-center">
-                  <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect register height-45 m-0"><i class="fa fa-paper-plane-o"></i>Start trial</button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--div class="col-md-12 down">
-            <a class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-js-ripple-effect" href="#unity">
-              <i class="mdi mdi-keyboard_arrow_down"></i>
-            </a>
-          </div-->
-        </div>
-      </div>
-    </section>
+  </nav>
 
-    <section id="unity" class="section augmented bg-white text-center">
-      <div class="container max-600">
-        <div class="row">
-          <div class="col-md-12">
-            <h3 class="bold">Shorten your sales cycle with Augmented Reality.</h3>
-          </div>
-          <div class="col-md-12">
-            <p>Use AR to showcase your products in real life on trade-shows, on-site with clients or cross-border. Reduce cost of acquisition & increase revenue.</p>
-            <p class="bold">We support these 3D formats:</p>
-            <div class="logos-augmented">
-              <img src="public/images/logo-obj.jpg" width="50" alt="logo-obj">
-              <img src="public/images/logo-unity.svg" width="100">
-            </div>
-        </div>
-      </div>
-    </section> 
-
-    <section class="section existing text-center p-0">
-      <div class="container tablet">
-        <div class="row">
-          <div class="col-md-12">
-            <h3 class="bold white m-b-0 p-30">No SDK. No coding. Use your own 3D content.</h3>
-            <h3 class="bold white m-t-0 p-30">Augmented reality in 1 minute.</h3>
-            <div class="guion-small"></div>
-          </div>
-          <div class="col-md-5 contenido-video">
-            <div class="col-md-12 separacion">
-              <i class="mdi mdi-keyboard_arrow_right circular"></i>
-              <p class="text-left">Design your 3D models using your own 3D software. Export the designs and upload them in Arbi.</p>
-            </div>
-            <div class="col-md-12 separacion">
-              <i class="mdi mdi-keyboard_arrow_down circular"></i>
-              <p class="text-left">Log into your Arbi account, upload the files and save them into your library.</p>
-            </div>
-            <div class="col-md-12 separacion">
-              <i class="mdi mdi-keyboard_arrow_left circular"></i>
-              <p class="text-left">Use the Arbi app on smartphone or tablet, login to your library and view your 3D content in Augmented Reality.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <div class="video-arbio">
-      <button id="view-video" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect fucsia" onclick="videoplay()">Watch the video<i class="mdi mdi-play_circle_filled"></i></button>
-      <video id="myvideo" src="public/video/arbio-video.mp4" poster="public/images/poster_image.png"></video>
-    </div> 
-    <section id="tablet" class="section text-center bg-white">
-      <div class="container tablet">
-        <div class="row">
-          <div class="col-md-6 col-sm-6 text-left imagen-tablet">
-            <img src="public/images/tablet-laptop.png">
-          </div>
-          <div class="col-md-6 col-sm-6 contenido-tablet">
-            <h3 class="bold m-b-0">No AR hardware required.</h3>
-            <h3 class="bold m-t-0">Just your smartphone or tablet</h3>
-            <p>No need to invest in expensive AR hardware such as AR-glasses. Use your smartphone or tablet to access your content in AR with the Arbi App.</p>
-            <div class="col-md-12 p-0">
-              <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect play-store"><i class="mdi mdi-play-store"></i>Download on the Play Store</button>
-            </div>
-            <div class="col-md-12 p-0">
-              <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect apple"><i class="fa fa-apple"></i>Download on the Apple Store</button>
-            </div>
-          </div>
-          <div class="col-md-12 col-sm-12 margin-redes">
-            
-          </div>
-          <div class="col-md-12 contenido-final">
-            <h3 class="bold">Augmented Reality is no longer just a cool hype. Real value is generated on the revenue/cost spectrum.</h3>
-            <p class="font-weight">Deploy AR in Sales across Manufacturing, Architecture & Interior Design. Prototype & test new product-fit faster.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="product" class="section text-center p-rl-0 bg-white">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4 col-sm-4 morado text-center">
-            <h3>Take your product portfolio with you.</h3>
-            <div class="guion-small"></div>
-            <p class="height-responsive">Being able to showcase our products in-real-life makes the client pitch much more powerfull than a simple catalog.</p>
-            <p>It makes the pitch tangible.</p>
-          </div>
-          <div class="col-md-4 col-sm-4 rosado text-center">
-            <h3>Design faster & cheaper.</h3>
-            <div class="guion-small"></div>
-            <p class="height-responsive">Clients view their product designs in Augmented Reality and make adjustments without a physical mock-up.</p>
-            <p>Reduces cost & design-time.</p>
-          </div>
-          <div class="col-md-4 col-sm-4 azul text-center">
-            <h3>Pre-sell protoypes digitally.</h3>
-            <div class="guion-small"></div>
-            <p class="height-responsive">Manufacturing prototypes is costly & time-consuming. We use digital prototypes in Augmented Reality to market-test product interest.</p>
-            <p>It's the next best thing.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="lear" class="section text-center bg-white">
-      <div class="container max-600 text-center">
-        <div class="row">
-          <div class="col-sm-12">
-            <h3 class="bold m-t-0">Looking to learn how to benefit from Augmented Reality in Education, Medical field or Advertising?</h3>
-          </div>
-          <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect rosado br-20">
-            LEARN MORE
-          </button>
-        </div>
-      </div>
-    </section>
-
-    <section class="background-divisor"></section>
-
-    <section class="section bg-white">
+  <section class="padding section bg-white">
       <div class="container">
         <div class="col-md-12 text-center">
           <h3 class="bold">Ready to Get Started?</h3>
@@ -337,13 +165,13 @@
 
     <section class="background-divisor"></section>
 
-  	<section id="faq" class="section text-center bg-white">
-  		<div class="container">
-  			<div class="row">
-  			  <div class="col-sm-12">
-    				<h3 class="bold m-b-0">Frequently asked questions.</h3>
-    				<div class="guion-small large"></div>
-  			  </div>
+    <section id="faq" class="section text-center bg-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h3 class="bold m-b-0">Frequently asked questions.</h3>
+            <div class="guion-small large"></div>
+          </div>
           <div class="col-md-6 col-sm-6 text-left">
             <div class="col-sm-12">
               <h3 class="bold">Explain Augmented Reality to me as if I am a child.</h3>
@@ -380,9 +208,9 @@
               <p>No. You dont adjust to us. We have adjusted our system to your existing process. All you need to do is upload 3D product designs which already exist in your business.</p>
             </div>
           </div>
-  	    </div>
+        </div>
       </div>
-  	</section>
+    </section>
 
     <section class="background-divisor"></section>
 
@@ -449,7 +277,7 @@
               <li><a href="feature.html">Features</a></li>
               <li><a href="pricing_page.html">Pricing</a></li>
               <li><a href="blog.html">Blog</a></li>
-              <li><a href="#contact_us">Contact</a></li>
+              <li><a href="home.html#contact_us">Contact</a></li>
               <li class="p-r-0"><i class="fa fa-facebook"></i></li>
               <li class="p-r-0"><i class="fa fa-twitter"></i></li>
               <li class="p-r-0"><i class="fa fa-google-plus"></i></li>
@@ -459,23 +287,13 @@
       </div>
     </footer>
 
-    <script src="public/components/jquery-3.2.1/jquery-3.2.1.min.js"></script>
-    <script src="public/components/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
-    <script src="public/components/mdl/js/material.min.js"></script>
-    <script src="public/components/OwlCarousel2-2.2.1/dist/owl.carousel.min.js"></script>
-    <script src="public/js/jshome.js"></script>
-    <script type="text/javascript">
-      window.addEventListener("load", function() {
-        setTimeout(function() {
-        var load_screen = document.getElementById("load_screen");
-        document.body.removeChild(load_screen);}, 100);
-      });
+	
 
-      var vid = document.getElementById("myvideo");
-      function videoplay() { 
-        vid.autoplay = true;
-        vid.load();
-      }
-    </script>
-  </body>
+  <script src="public/components/jquery-3.2.1/jquery-3.2.1.min.js"></script>
+  <script src="public/components/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+  <script src="public/components/mdl/js/material.min.js"></script>
+  <script src="public/components/wizard/js/jquery.bootstrap.wizard.min.js"></script>
+  <script src="public/components/OwlCarousel2-2.2.1/dist/owl.carousel.min.js"></script>
+  <script src="public/js/jspricing.js"></script>
+</body>
 </html>
