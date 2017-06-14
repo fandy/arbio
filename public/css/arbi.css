@@ -245,8 +245,8 @@ section video {
     text-transform: uppercase;
     color: #FFFFFF;
 }
-.navbar-right button{
-    border: 2px solid #8A6181;
+.navbar-right .mdl-button{
+    border: 2px solid #8A6181 !important;
     border-radius: 20px;
     -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
@@ -256,6 +256,7 @@ section video {
 	font-weight: bold;
 	line-height: 1;
 	margin: 12px 15px !important;
+	text-decoration: none;
 }
 
 .col-md-12.down{
@@ -282,6 +283,15 @@ section video {
     top: 10px;
 }
 
+.navbar-right .mdl-button.mdl-js-button.mdl-button--raised,
+.navbar-right .mdl-button.mdl-js-button.mdl-button--raised:hover{
+	font-size: 14px;
+	background-color: #581E4C;
+	padding: 8px 25px !important;
+    width: 95px;	
+}
+
+.navbar-right .mdl-button.mdl-js-button.mdl-button--raised,
 .mdl-button.mdl-js-button.mdl-button--raised{
 	background-color: #581E4C;
 	text-transform: initial;
@@ -913,7 +923,7 @@ tr td:nth-child(2){
 	.navbar-default .navbar-right>li>a{
 		border:none;
 	}
-	.navbar-default .navbar-nav li a:after{
+	.navbar-default .navbar-nav li.link-bottom a:after{
 		-webkit-backface-visibility: hidden;
 	    -moz-backface-visibility: hidden;
 	    backface-visibility: hidden;
@@ -930,17 +940,17 @@ tr td:nth-child(2){
 	    transition: all 280ms ease-in-out;
 	    width: 0;
 	}
-	.navbar-default .navbar-nav li a.active,
-	.navbar-default .navbar-nav li a:hover, 
-	.navbar-default .navbar-nav li a:active, 
-	.navbar-default .navbar-nav li a:focus{
+	.navbar-default .navbar-nav li.link-bottom a.active,
+	.navbar-default .navbar-nav li.link-bottom a:hover, 
+	.navbar-default .navbar-nav li.link-bottom a:active, 
+	.navbar-default .navbar-nav li.link-bottom a:focus{
 		color: #e61f22 !important; 
 	}
 
-	.navbar-default .navbar-nav li a.active:after,
-	.navbar-default .navbar-nav li a:hover:after, 
-	.navbar-default .navbar-nav li a:active:after,
-	.navbar-default .navbar-nav li a:focus:after{
+	.navbar-default .navbar-nav li.link-bottom a.active:after,
+	.navbar-default .navbar-nav li.link-bottom a:hover:after, 
+	.navbar-default .navbar-nav li.link-bottom a:active:after,
+	.navbar-default .navbar-nav li.link-bottom a:focus:after{
 		-webkit-backface-visibility: hidden;
 	    backface-visibility: hidden;
 	    border-color: #e61f22;
@@ -1146,6 +1156,9 @@ tr td:nth-child(2){
 	.mdl-card-article .mdl-card__actions{
 		text-align: center !important;
 		padding-bottom: 16px;
+	}
+	.navbar-right .mdl-button.mdl-js-button.mdl-button--raised{
+		margin: 5px auto !important;
 	}
 }
 
