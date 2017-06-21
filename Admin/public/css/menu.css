@@ -1,0 +1,60 @@
+﻿.mdl-layout__container{
+    background-color: #EEF0F3;
+}
+
+.mdl-layout-title{
+    padding: 0 15px !important;
+    line-height: 45px !important;
+}
+.mdl-layout-title i{
+    font-size: 70px;
+    color: #FFFFFF;
+}
+
+.mdl-layout__drawer .mdl-navigation .mdl-navigation__link{
+    padding: 5px 15px;
+    text-align: center;
+}
+.mdl-navigation__link i{
+    font-size: 35px;
+    color: #FFFFFF;
+}
+.mdl-navigation__link p{
+    margin: 0;
+    color: #FFFFFF;
+}
+.mdl-layout--fixed-drawer.is-upgraded:not(.is-small-screen)>.mdl-layout__header{
+    margin-left: 100px;
+    width: 100%;
+}
+.mdl-layout--fixed-drawer>.mdl-layout__content{
+    margin-left: 100px;
+}
+
+.mdl-layout__header{
+    background-color: #FFFFFF;
+}
+.mdl-layout__drawer{
+    background-color: #38386E;
+    width: 100px;
+}
+
+.mdl-section{
+    padding: 20px 25px;
+}
+.mdl-content-cards{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+/*CARDS*/
+.mdl-card{
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+            box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+            border-radius: 5px;
+}
+.mdl-card-admin{
+    display: inline-block;
+    max-width: 260px;
+    margin: 15px;
+}
