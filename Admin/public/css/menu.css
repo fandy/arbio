@@ -58,3 +58,8 @@
     max-width: 260px;
     margin: 15px;
 }
+.mdl-card-challenge{
+    display: inline-block;
+    max-width: 215px;
+    margin: 5px;
+}
