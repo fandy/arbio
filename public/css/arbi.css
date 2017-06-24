@@ -1008,8 +1008,7 @@ tr td:nth-child(2){
 	    font-size: 14px;
 	}
 	.col-sm-7.text-center.required{
-	    padding: 60px 0;
-    	text-align: right;
+	    padding: 90px 0;
 	}
 }
 
