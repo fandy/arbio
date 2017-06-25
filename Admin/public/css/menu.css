@@ -63,3 +63,8 @@
     max-width: 215px;
     margin: 5px;
 }
+.mdl-card-folder{
+    min-height: 100%;
+    display: inline-block;
+    max-width: 215px;
+    margin: 5px;
