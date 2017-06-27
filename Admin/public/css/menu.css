@@ -61,10 +61,13 @@
     max-width: 260px;
     margin: 15px;
 }
+.mdl-card-admin .mdl-card__title h2{
+    margin: auto;
+}
 .mdl-card-challenge{
     display: inline-block;
     max-width: 215px;
-    margin: 5px;
+    margin: 3px;
 }
 .mdl-card-challenge .mdl-card__title{
     padding: 5px;
