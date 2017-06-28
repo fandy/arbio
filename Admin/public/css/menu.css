@@ -20,6 +20,9 @@
 .mdl-navigation__link.active{
     background-color: #57386E;
 }
+.mdl-navigation__link.active .arrow-right{
+    display: block;
+}
 .mdl-navigation__link i{
     font-size: 35px;
     color: #FFFFFF;
@@ -61,6 +64,7 @@
     right: 0;
     margin-top: 25px;
     position: absolute;
+    display: none;
 }
 /*CARDS*/
 .mdl-card{
