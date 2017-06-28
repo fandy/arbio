@@ -18,288 +18,450 @@
   </head>
 <body>
 	<div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header">
-	  <header class="mdl-layout__header">
-	    <div class="mdl-layout__header-row">
-	      <div class="mdl-layout-spacer"></div>
-	      <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
-	                  mdl-textfield--floating-label mdl-textfield--align-right">
-	        <label class="mdl-button mdl-js-button mdl-button--icon"
-	               for="fixed-header-drawer-exp">
-	          <i class="material-icons">search</i>
-	        </label>
-	        <div class="mdl-textfield__expandable-holder">
-	          <input class="mdl-textfield__input" type="text" name="sample" id="fixed-header-drawer-exp">
-	        </div>
-	      </div>
-	    </div>
-	  </header>
-	  <div class="mdl-layout__drawer">
-	    <span class="mdl-layout-title"><i class="mdi mdi-logo_nuevo"></i></span>
-	    <nav class="mdl-navigation p-t-0">
-	      <a class="mdl-navigation__link" href=""><i class="mdi mdi-cloud_upload"></i><p>UPLOAD</p></a>
-	      <a class="mdl-navigation__link active" href=""><div class="arrow-right"></div><i class="mdi mdi-grid_on"></i><p>LIBRARY</p></a>
-	      <a class="mdl-navigation__link" href=""><i class="mdi mdi-group_add"></i><p>USERS</p></a>
-	      <a class="mdl-navigation__link" href=""><i class="mdi mdi-email"></i><p>SUPPORT</p></a>
-	      <a class="mdl-navigation__link" href=""><i class="mdi mdi-person"></i><p>PROFILE</p></a>
-	      <a class="mdl-navigation__link" href=""><i class="fa fa-power-off"></i><p>LOGOUT</p></a>
-	    </nav>
-	  </div>
-	  <main class="mdl-layout__content">
-	    <section class="mdl-section">
-	    	<div class="mdl-content-cards">
-				<div class="mdl-card mdl-card-admin">
-					<div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">Scans</h2>
-                    </div>
-                    <div class="mdl-card__supporting-text">
-                    	<p>99 scans of 200</p>
-                    </div>
-                    <div class="mdl-card__actions">
-                       
-                    </div>
+		<header class="mdl-layout__header">
+			<div class="mdl-layout__header-row">
+			    <div class="mdl-layout-spacer"></div>
+			    <div class="login text-right">
+					<img class="inline" src="public/img/header/nouser.jpg" alt="">
+					<p class="inline">John Doe</p>
+					<i class="mdi mdi-arrow_drop_down inline"></i>
+			    </div>
+			</div>
+		</header>
+		<div class="mdl-layout__drawer">
+			<span class="mdl-layout-title"><i class="mdi mdi-logo_nuevo"></i></span>
+			<nav class="mdl-navigation p-t-0">
+				<a class="mdl-navigation__link" href=""><i class="mdi mdi-cloud_upload"></i><p>UPLOAD</p></a>
+				<a class="mdl-navigation__link active" href=""><div class="arrow-right"></div><i class="mdi mdi-grid_on"></i><p>LIBRARY</p></a>
+				<a class="mdl-navigation__link" href=""><i class="mdi mdi-group_add"></i><p>USERS</p></a>
+				<a class="mdl-navigation__link" href=""><i class="mdi mdi-email"></i><p>SUPPORT</p></a>
+				<a class="mdl-navigation__link" href=""><i class="mdi mdi-person"></i><p>PROFILE</p></a>
+				<a class="mdl-navigation__link" href=""><i class="fa fa-power-off"></i><p>LOGOUT</p></a>
+			</nav>
+		</div>
+		<main class="mdl-layout__content">
+			<section class="mdl-section">
+				<div class="mdl-content-cards">
+					<div class="mdl-card mdl-card-admin">
+						<div class="mdl-card__title">
+			                <h2 class="mdl-card__title-text">Scans</h2>
+			            </div>
+			            <div class="mdl-card__supporting-text p-t-0">
+			            	<p>99 scans of 200</p>
+			            	<p>left</p>
+			            </div>
+			            <div class="mdl-card__actions">
+			               
+			            </div>
+					</div>
+					<div class="mdl-card mdl-card-admin">
+						<div class="mdl-card__title">
+			                <h2 class="mdl-card__title-text">Storage</h2>
+			            </div>
+			            <div class="mdl-card__supporting-text p-t-0">
+			            	<p>988 MB of 1000 MB</p>
+			            	<p>left</p>
+			            </div>
+			            <div class="mdl-card__actions">
+			                
+			            </div>
+					</div>
+					<div class="mdl-card mdl-card-admin">
+						<div class="mdl-card__title">
+			                <h2 class="mdl-card__title-text">Users</h2>
+			            </div>
+			            <div class="mdl-card__supporting-text p-t-0">
+			            	<p>4 users active</p>
+			            	<p>left</p>
+			            </div>
+			            <div class="mdl-card__actions">
+			                <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised">ADD USER</button>
+			            </div>
+					</div>
+					<div class="mdl-card mdl-card-admin">
+						<div class="mdl-card__title">
+			                <h2 class="mdl-card__title-text">Current Plan</h2>
+			            </div>
+			            <div class="mdl-card__supporting-text p-t-0">
+			            	<p>Free trial</p>
+			            	<p>Valid until 24 June 2017</p>
+			            </div>
+			            <div class="mdl-card__actions">
+			                <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised">UPGRADE</button>
+			            </div>
+					</div>
+					<div id="inputs">
+						<div class="inputs-add inline m-r-10">
+							<div class="input-group width-125">
+								<span class="input-group-btn">
+									<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect m-0 height-45 morado p-0" type="button" tabindex="-1"><i class="mdi mdi-add inline"></i></button>
+								</span>
+								<input type="text" class="form-control" placeholder="Add asset" aria-describedby="name1">
+							</div>
+						</div>
+						<div class="inputs-add inline m-r-10">
+							<div class="input-group width-125">
+								<span class="input-group-btn">
+									<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect m-0 height-45 morado p-0" type="button" tabindex="-1"><i class="mdi mdi-add inline"></i></button>
+								</span>
+								<input type="text" class="form-control" placeholder="Add folder" aria-describedby="name1">
+							</div>
+						</div>
+						<div class="inputs-add inline">
+							<div class="input-group width-850">
+								<span class="input-group-btn">
+									<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect m-0 height-45 morado p-0" type="button" tabindex="-1"><i class="mdi mdi-search inline"></i></button>
+								</span>
+								<input type="text" class="form-control" placeholder="Search assets" aria-describedby="name1">
+							</div>
+						</div>						
+					</div>
+					<div id="folder">
+						<div class="mdl-card mdl-card-folder">
+							<div class="mdl-card__title inline">
+								<i class="mdi mdi-folder inline"></i>
+			                    <h2 class="mdl-card__title-text inline">ALL MODELS</h2>
+			                </div>
+						</div>
+						<div class="mdl-card mdl-card-folder">
+							<div class="mdl-card__title inline">
+								<i class="mdi mdi-folder inline"></i>
+			                    <h2 class="mdl-card__title-text inline">3D MODELS</h2>
+			                </div>
+						</div>
+						<div class="mdl-card mdl-card-folder">
+							<div class="mdl-card__title inline">
+								<i class="mdi mdi-folder inline"></i>
+			                    <h2 class="mdl-card__title-text inline">IMAGE TRACKERS</h2>
+			                </div>
+						</div>
+						<div class="mdl-card mdl-card-folder">
+							<div class="mdl-card__title inline">
+								<i class="mdi mdi-folder inline"></i>
+			                    <h2 class="mdl-card__title-text inline">UNITY 3D</h2>
+			                </div>
+						</div>
+						<div class="mdl-card mdl-card-folder">
+							<div class="mdl-card__title inline">
+								<i class="mdi mdi-create_new_folder inline"></i>
+			                    <h2 class="mdl-card__title-text inline">NEW FOLDER</h2>
+			                </div>
+						</div>
+					</div>
+					<div id="challenge">
+						<div id="empty" class="empty text-center">
+							<p>You don't have any models.</p>
+							<p>Please upload assets.</p>
+						</div>
+						<div id="models" style="display: none">
+							<div class="mdl-card mdl-card-challenge">
+								<div class="mdl-card__title">
+				                    <img src="public/img/car-admin.jpg" alt="car">
+				                </div>
+				                <div class="mdl-card__supporting-text">
+				                	<div class="col-xs-8 text-left p-0">
+				                		<p>Dodge Challenger</p>
+				                	</div>
+				                	<div class="col-xs-4 text-right p-0">
+				                		<button class="mdl-button mdl-js-button mdl-button--icon inline">
+											<i class="mdi mdi-insert_drive_file"></i>
+										</button>
+				                		<button class="mdl-button mdl-js-button mdl-button--icon inline">
+											<i class="mdi mdi-delete"></i>
+										</button>
+				                	</div>
+				                </div>
+							</div>
+							<div class="mdl-card mdl-card-challenge">
+								<div class="mdl-card__title">
+				                    <img src="public/img/car-admin.jpg" alt="car">
+				                </div>
+				                <div class="mdl-card__supporting-text">
+				                	<div class="col-xs-8 text-left p-0">
+				                		<p>Dodge Challenger</p>
+				                	</div>
+				                	<div class="col-xs-4 text-right p-0">
+				                		<button class="mdl-button mdl-js-button mdl-button--icon inline">
+											<i class="mdi mdi-delete"></i>
+										</button>
+				                	</div>
+				                </div>
+							</div>
+							<div class="mdl-card mdl-card-challenge">
+								<div class="mdl-card__title">
+				                    <img src="public/img/car-admin.jpg" alt="car">
+				                </div>
+				                <div class="mdl-card__supporting-text">
+				                	<div class="col-xs-8 text-left p-0">
+				                		<p>Dodge Challenger</p>
+				                	</div>
+				                	<div class="col-xs-4 text-right p-0">
+				                		<button class="mdl-button mdl-js-button mdl-button--icon inline">
+											<i class="mdi mdi-delete"></i>
+										</button>
+				                	</div>
+				                </div>
+							</div>
+							<div class="mdl-card mdl-card-challenge">
+								<div class="mdl-card__title">
+				                    <img src="public/img/car-admin.jpg" alt="car">
+				                </div>
+				                <div class="mdl-card__supporting-text">
+				                	<div class="col-xs-8 text-left p-0">
+				                		<p>Dodge Challenger</p>
+				                	</div>
+				                	<div class="col-xs-4 text-right p-0">
+				                		<button class="mdl-button mdl-js-button mdl-button--icon inline">
+											<i class="mdi mdi-delete"></i>
+										</button>
+				                	</div>
+				                </div>
+							</div>
+							<div class="mdl-card mdl-card-challenge">
+								<div class="mdl-card__title">
+				                    <img src="public/img/car-admin.jpg" alt="car">
+				                </div>
+				                <div class="mdl-card__supporting-text">
+				                	<div class="col-xs-8 text-left p-0">
+				                		<p>Dodge Challenger</p>
+				                	</div>
+				                	<div class="col-xs-4 text-right p-0">
+				                		<button class="mdl-button mdl-js-button mdl-button--icon inline">
+											<i class="mdi mdi-delete"></i>
+										</button>
+				                	</div>
+				                </div>
+							</div>
+							<div class="mdl-card mdl-card-challenge">
+								<div class="mdl-card__title">
+				                    <img src="public/img/car-admin.jpg" alt="car">
+				                </div>
+				                <div class="mdl-card__supporting-text">
+				                	<div class="col-xs-8 text-left p-0">
+				                		<p>Dodge Challenger</p>
+				                	</div>
+				                	<div class="col-xs-4 text-right p-0">
+				                		<button class="mdl-button mdl-js-button mdl-button--icon inline">
+											<i class="mdi mdi-delete"></i>
+										</button>
+				                	</div>
+				                </div>
+							</div>
+							<div class="mdl-card mdl-card-challenge">
+								<div class="mdl-card__title">
+				                    <img src="public/img/car-admin.jpg" alt="car">
+				                </div>
+				                <div class="mdl-card__supporting-text">
+				                	<div class="col-xs-8 text-left p-0">
+				                		<p>Dodge Challenger</p>
+				                	</div>
+				                	<div class="col-xs-4 text-right p-0">
+				                		<button class="mdl-button mdl-js-button mdl-button--icon inline">
+											<i class="mdi mdi-delete"></i>
+										</button>
+				                	</div>
+				                </div>
+							</div>
+							<div class="mdl-card mdl-card-challenge">
+								<div class="mdl-card__title">
+				                    <img src="public/img/car-admin.jpg" alt="car">
+				                </div>
+				                <div class="mdl-card__supporting-text">
+				                	<div class="col-xs-8 text-left p-0">
+				                		<p>Dodge Challenger</p>
+				                	</div>
+				                	<div class="col-xs-4 text-right p-0">
+				                		<button class="mdl-button mdl-js-button mdl-button--icon inline">
+											<i class="mdi mdi-delete"></i>
+										</button>
+				                	</div>
+				                </div>
+							</div>
+							<div class="mdl-card mdl-card-challenge">
+								<div class="mdl-card__title">
+				                    <img src="public/img/car-admin.jpg" alt="car">
+				                </div>
+				                <div class="mdl-card__supporting-text">
+				                	<div class="col-xs-8 text-left p-0">
+				                		<p>Dodge Challenger</p>
+				                	</div>
+				                	<div class="col-xs-4 text-right p-0">
+				                		<button class="mdl-button mdl-js-button mdl-button--icon inline">
+											<i class="mdi mdi-delete"></i>
+										</button>
+				                	</div>
+				                </div>
+							</div>
+							<div class="mdl-card mdl-card-challenge">
+								<div class="mdl-card__title">
+				                    <img src="public/img/car-admin.jpg" alt="car">
+				                </div>
+				                <div class="mdl-card__supporting-text">
+				                	<div class="col-xs-8 text-left p-0">
+				                		<p>Dodge Challenger</p>
+				                	</div>
+				                	<div class="col-xs-4 text-right p-0">
+				                		<button class="mdl-button mdl-js-button mdl-button--icon inline">
+											<i class="mdi mdi-delete"></i>
+										</button>
+				                	</div>
+				                </div>
+							</div>
+							<div class="mdl-card mdl-card-challenge">
+								<div class="mdl-card__title">
+				                    <img src="public/img/car-admin.jpg" alt="car">
+				                </div>
+				                <div class="mdl-card__supporting-text">
+				                	<div class="col-xs-8 text-left p-0">
+				                		<p>Dodge Challenger</p>
+				                	</div>
+				                	<div class="col-xs-4 text-right p-0">
+				                		<button class="mdl-button mdl-js-button mdl-button--icon inline">
+											<i class="mdi mdi-delete"></i>
+										</button>
+				                	</div>
+				                </div>
+							</div>
+							<div class="mdl-card mdl-card-challenge">
+								<div class="mdl-card__title">
+				                    <img src="public/img/car-admin.jpg" alt="car">
+				                </div>
+				                <div class="mdl-card__supporting-text">
+				                	<div class="col-xs-8 text-left p-0">
+				                		<p>Dodge Challenger</p>
+				                	</div>
+				                	<div class="col-xs-4 text-right p-0">
+				                		<button class="mdl-button mdl-js-button mdl-button--icon inline">
+											<i class="mdi mdi-delete"></i>
+										</button>
+				                	</div>
+				                </div>
+							</div>
+							<div class="mdl-card mdl-card-challenge">
+								<div class="mdl-card__title">
+				                    <img src="public/img/car-admin.jpg" alt="car">
+				                </div>
+				                <div class="mdl-card__supporting-text">
+				                	<div class="col-xs-8 text-left p-0">
+				                		<p>Dodge Challenger</p>
+				                	</div>
+				                	<div class="col-xs-4 text-right p-0">
+				                		<button class="mdl-button mdl-js-button mdl-button--icon inline">
+											<i class="mdi mdi-delete"></i>
+										</button>
+				                	</div>
+				                </div>
+							</div>
+							<div class="mdl-card mdl-card-challenge">
+								<div class="mdl-card__title">
+				                    <img src="public/img/car-admin.jpg" alt="car">
+				                </div>
+				                <div class="mdl-card__supporting-text">
+				                	<div class="col-xs-8 text-left p-0">
+				                		<p>Dodge Challenger</p>
+				                	</div>
+				                	<div class="col-xs-4 text-right p-0">
+				                		<button class="mdl-button mdl-js-button mdl-button--icon inline">
+											<i class="mdi mdi-delete"></i>
+										</button>
+				                	</div>
+				                </div>
+							</div>
+							<div class="mdl-card mdl-card-challenge">
+								<div class="mdl-card__title">
+				                    <img src="public/img/car-admin.jpg" alt="car">
+				                </div>
+				                <div class="mdl-card__supporting-text">
+				                	<div class="col-xs-8 text-left p-0">
+				                		<p>Dodge Challenger</p>
+				                	</div>
+				                	<div class="col-xs-4 text-right p-0">
+				                		<button class="mdl-button mdl-js-button mdl-button--icon inline">
+											<i class="mdi mdi-delete"></i>
+										</button>
+				                	</div>
+				                </div>
+							</div>
+							<div class="mdl-card mdl-card-challenge">
+								<div class="mdl-card__title">
+				                    <img src="public/img/car-admin.jpg" alt="car">
+				                </div>
+				                <div class="mdl-card__supporting-text">
+				                	<div class="col-xs-8 text-left p-0">
+				                		<p>Dodge Challenger</p>
+				                	</div>
+				                	<div class="col-xs-4 text-right p-0">
+				                		<button class="mdl-button mdl-js-button mdl-button--icon inline">
+											<i class="mdi mdi-delete"></i>
+										</button>
+				                	</div>
+				                </div>
+							</div>
+							<div class="mdl-card mdl-card-challenge">
+								<div class="mdl-card__title">
+				                    <img src="public/img/car-admin.jpg" alt="car">
+				                </div>
+				                <div class="mdl-card__supporting-text">
+				                	<div class="col-xs-8 text-left p-0">
+				                		<p>Dodge Challenger</p>
+				                	</div>
+				                	<div class="col-xs-4 text-right p-0">
+				                		<button class="mdl-button mdl-js-button mdl-button--icon inline">
+											<i class="mdi mdi-delete"></i>
+										</button>
+				                	</div>
+				                </div>
+							</div>
+							<div class="mdl-card mdl-card-challenge">
+								<div class="mdl-card__title">
+				                    <img src="public/img/car-admin.jpg" alt="car">
+				                </div>
+				                <div class="mdl-card__supporting-text">
+				                	<div class="col-xs-8 text-left p-0">
+				                		<p>Dodge Challenger</p>
+				                	</div>
+				                	<div class="col-xs-4 text-right p-0">
+				                		<button class="mdl-button mdl-js-button mdl-button--icon inline">
+											<i class="mdi mdi-delete"></i>
+										</button>
+				                	</div>
+				                </div>
+							</div>
+							<div class="mdl-card mdl-card-challenge">
+								<div class="mdl-card__title">
+				                    <img src="public/img/car-admin.jpg" alt="car">
+				                </div>
+				                <div class="mdl-card__supporting-text">
+				                	<div class="col-xs-8 text-left p-0">
+				                		<p>Dodge Challenger</p>
+				                	</div>
+				                	<div class="col-xs-4 text-right p-0">
+				                		<button class="mdl-button mdl-js-button mdl-button--icon inline">
+											<i class="mdi mdi-delete"></i>
+										</button>
+				                	</div>
+				                </div>
+							</div>
+							<div class="mdl-card mdl-card-challenge">
+								<div class="mdl-card__title">
+				                    <img src="public/img/car-admin.jpg" alt="car">
+				                </div>
+				                <div class="mdl-card__supporting-text">
+				                	<div class="col-xs-8 text-left p-0">
+				                		<p>Dodge Challenger</p>
+				                	</div>
+				                	<div class="col-xs-4 text-right p-0">
+				                		<button class="mdl-button mdl-js-button mdl-button--icon inline">
+											<i class="mdi mdi-delete"></i>
+										</button>
+				                	</div>
+				                </div>
+							</div>
+						</div>
+					</div>
 				</div>
-				<div class="mdl-card mdl-card-admin">
-					<div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">Storage</h2>
-                    </div>
-                    <div class="mdl-card__supporting-text">
-                    	<p>988 MB of 1000 MB</p>
-                    </div>
-                    <div class="mdl-card__actions">
-                        
-                    </div>
-				</div>
-				<div class="mdl-card mdl-card-admin">
-					<div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">Users</h2>
-                    </div>
-                    <div class="mdl-card__supporting-text">
-                    	<p>4 users active</p>
-                    </div>
-                    <div class="mdl-card__actions">
-                        <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised">ADD USER</button>
-                    </div>
-				</div>
-				<div class="mdl-card mdl-card-admin">
-					<div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">Current Plan</h2>
-                    </div>
-                    <div class="mdl-card__supporting-text">
-                    	<p>Free trial</p>
-                    	<p>Valid until 24 June 2017</p>
-                    </div>
-                    <div class="mdl-card__actions">
-                        <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised">UPGRADE</button>
-                    </div>
-				</div>
-				<div id="inputs">
-					<div class="input-group">
-						<span class="input-group-btn">
-							<button class="btn btn-default" type="button"><i class="mdi mdi-add"></i></button>
-						</span>
-						<input type="text" class="form-control" placeholder="Search for...">
-				    </div>
-					<div class="input-group">
-						<span class="input-group-addon" id="basic-addon1">@</span>
-						<input type="text" class="form-control" placeholder="Add asset" aria-describedby="basic-addon1">
-					</div>
-					<div class="input-group">
-						<span class="input-group-addon" id="basic-addon1">@</span>
-						<input type="text" class="form-control" placeholder="Add folder" aria-describedby="basic-addon1">
-					</div>
-				</div>
-				<div id="folder">
-					<div class="mdl-card mdl-card-folder">
-						<div class="mdl-card__title">
-	                        <h2 class="mdl-card__title-text">ALL MODELS</h2>
-	                    </div>
-					</div>
-					<div class="mdl-card mdl-card-folder">
-						<div class="mdl-card__title">
-	                        <h2 class="mdl-card__title-text">3D MODELS</h2>
-	                    </div>
-					</div>
-					<div class="mdl-card mdl-card-folder">
-						<div class="mdl-card__title">
-	                        <h2 class="mdl-card__title-text">IMAGE TRACKERS</h2>
-	                    </div>
-					</div>
-					<div class="mdl-card mdl-card-folder">
-						<div class="mdl-card__title">
-	                        <h2 class="mdl-card__title-text">UNITY 3D</h2>
-	                    </div>
-					</div>
-					<div class="mdl-card mdl-card-folder">
-						<div class="mdl-card__title">
-	                        <h2 class="mdl-card__title-text">NEW FOLDER</h2>
-	                    </div>
-					</div>
-				</div>
-				<div id="challenge">
-					<div class="mdl-card mdl-card-challenge">
-						<div class="mdl-card__title">
-	                        <img src="public/img/car-admin.jpg" alt="car">
-	                    </div>
-	                    <div class="mdl-card__supporting-text">
-	                    	<p>Free trial</p>
-	                    </div>
-					</div>
-					<div class="mdl-card mdl-card-challenge">
-						<div class="mdl-card__title">
-	                        <img src="public/img/car-admin.jpg" alt="car">
-	                    </div>
-	                    <div class="mdl-card__supporting-text">
-	                    	<p>Free trial</p>
-	                    </div>
-					</div>
-					<div class="mdl-card mdl-card-challenge">
-						<div class="mdl-card__title">
-	                        <img src="public/img/car-admin.jpg" alt="car">
-	                    </div>
-	                    <div class="mdl-card__supporting-text">
-	                    	<p>Free trial</p>
-	                    </div>
-					</div>
-					<div class="mdl-card mdl-card-challenge">
-						<div class="mdl-card__title">
-	                        <img src="public/img/car-admin.jpg" alt="car">
-	                    </div>
-	                    <div class="mdl-card__supporting-text">
-	                    	<p>Free trial</p>
-	                    </div>
-					</div>
-					<div class="mdl-card mdl-card-challenge">
-						<div class="mdl-card__title">
-	                        <img src="public/img/car-admin.jpg" alt="car">
-	                    </div>
-	                    <div class="mdl-card__supporting-text">
-	                    	<p>Free trial</p>
-	                    </div>
-					</div>
-					<div class="mdl-card mdl-card-challenge">
-						<div class="mdl-card__title">
-	                        <img src="public/img/car-admin.jpg" alt="car">
-	                    </div>
-	                    <div class="mdl-card__supporting-text">
-	                    	<p>Free trial</p>
-	                    </div>
-					</div>
-					<div class="mdl-card mdl-card-challenge">
-						<div class="mdl-card__title">
-	                        <img src="public/img/car-admin.jpg" alt="car">
-	                    </div>
-	                    <div class="mdl-card__supporting-text">
-	                    	<p>Free trial</p>
-	                    </div>
-					</div>
-					<div class="mdl-card mdl-card-challenge">
-						<div class="mdl-card__title">
-	                        <img src="public/img/car-admin.jpg" alt="car">
-	                    </div>
-	                    <div class="mdl-card__supporting-text">
-	                    	<p>Free trial</p>
-	                    </div>
-					</div>
-					<div class="mdl-card mdl-card-challenge">
-						<div class="mdl-card__title">
-	                        <img src="public/img/car-admin.jpg" alt="car">
-	                    </div>
-	                    <div class="mdl-card__supporting-text">
-	                    	<p>Free trial</p>
-	                    </div>
-					</div>
-					<div class="mdl-card mdl-card-challenge">
-						<div class="mdl-card__title">
-	                        <img src="public/img/car-admin.jpg" alt="car">
-	                    </div>
-	                    <div class="mdl-card__supporting-text">
-	                    	<p>Free trial</p>
-	                    </div>
-					</div>
-					<div class="mdl-card mdl-card-challenge">
-						<div class="mdl-card__title">
-	                        <img src="public/img/car-admin.jpg" alt="car">
-	                    </div>
-	                    <div class="mdl-card__supporting-text">
-	                    	<p>Free trial</p>
-	                    </div>
-					</div>
-					<div class="mdl-card mdl-card-challenge">
-						<div class="mdl-card__title">
-	                        <img src="public/img/car-admin.jpg" alt="car">
-	                    </div>
-	                    <div class="mdl-card__supporting-text">
-	                    	<p>Free trial</p>
-	                    </div>
-					</div>
-					<div class="mdl-card mdl-card-challenge">
-						<div class="mdl-card__title">
-	                        <img src="public/img/car-admin.jpg" alt="car">
-	                    </div>
-	                    <div class="mdl-card__supporting-text">
-	                    	<p>Free trial</p>
-	                    </div>
-					</div>
-					<div class="mdl-card mdl-card-challenge">
-						<div class="mdl-card__title">
-	                        <img src="public/img/car-admin.jpg" alt="car">
-	                    </div>
-	                    <div class="mdl-card__supporting-text">
-	                    	<p>Free trial</p>
-	                    </div>
-					</div>
-					<div class="mdl-card mdl-card-challenge">
-						<div class="mdl-card__title">
-	                        <img src="public/img/car-admin.jpg" alt="car">
-	                    </div>
-	                    <div class="mdl-card__supporting-text">
-	                    	<p>Free trial</p>
-	                    </div>
-					</div>
-					<div class="mdl-card mdl-card-challenge">
-						<div class="mdl-card__title">
-	                        <img src="public/img/car-admin.jpg" alt="car">
-	                    </div>
-	                    <div class="mdl-card__supporting-text">
-	                    	<p>Free trial</p>
-	                    </div>
-					</div>
-					<div class="mdl-card mdl-card-challenge">
-						<div class="mdl-card__title">
-	                        <img src="public/img/car-admin.jpg" alt="car">
-	                    </div>
-	                    <div class="mdl-card__supporting-text">
-	                    	<p>Free trial</p>
-	                    </div>
-					</div>
-					<div class="mdl-card mdl-card-challenge">
-						<div class="mdl-card__title">
-	                        <img src="public/img/car-admin.jpg" alt="car">
-	                    </div>
-	                    <div class="mdl-card__supporting-text">
-	                    	<p>Free trial</p>
-	                    </div>
-					</div>
-					<div class="mdl-card mdl-card-challenge">
-						<div class="mdl-card__title">
-	                        <img src="public/img/car-admin.jpg" alt="car">
-	                    </div>
-	                    <div class="mdl-card__supporting-text">
-	                    	<p>Free trial</p>
-	                    </div>
-					</div>
-					<div class="mdl-card mdl-card-challenge">
-						<div class="mdl-card__title">
-	                        <img src="public/img/car-admin.jpg" alt="car">
-	                    </div>
-	                    <div class="mdl-card__supporting-text">
-	                    	<p>Free trial</p>
-	                    </div>
-					</div>
-				</div>
-	    	</div>
-	    </section>
-	  </main>
+			</section>
+		</main>
 	</div>
 
 	<script src="public/js/jquery-3.2.1.min.js"></script>

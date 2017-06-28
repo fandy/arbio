@@ -29,7 +29,7 @@
     color: #FFFFFF;
 }
 .mdl-layout--fixed-drawer.is-upgraded:not(.is-small-screen)>.mdl-layout__header{
-    margin-left: 100px;
+    margin-left: 0;
     width: 100%;
 }
 .mdl-layout--fixed-drawer>.mdl-layout__content{
@@ -68,18 +68,64 @@
             box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
             border-radius: 5px;
 }
+.mdl-card__supporting-text{
+    width: 100%;
+}
+.mdl-card__actions{
+    padding: 16px;
+}
 .mdl-card-admin{
     display: inline-block;
     max-width: 260px;
     margin: 15px;
+    height: 225px;
 }
 .mdl-card-admin .mdl-card__title h2{
     margin: auto;
+    padding: 5px 10px;
+    border-bottom: 1px solid;
+}
+.mdl-card-admin .mdl-card__actions button{
+    min-width: 160px;
+    border-radius: 25px;
+    color: #FFFFFF;
+    height: 40px;
+}
+.mdl-card-admin .mdl-card__supporting-text p:nth-child(2){
+    margin: auto;
+}
+.mdl-card-admin:nth-child(4) .mdl-card__supporting-text p:nth-child(2){
+    font-weight: bold;
+    border-bottom: 1px solid #57386E; 
+    max-width: 170px;
+    margin: auto;
+}
+.mdl-card-admin:nth-child(2n) .mdl-card__supporting-text p,
+.mdl-card-admin:nth-child(2n) .mdl-card__title h2{
+    color: #57386E;
+    border-color: #57386E;
+}
+.mdl-card-admin:nth-child(2n+1) .mdl-card__supporting-text p,
+.mdl-card-admin:nth-child(2n+1) .mdl-card__title h2{
+    color: #588B8B;
+    border-color: #588B8B;
+}
+.mdl-card-admin:nth-child(2n) .mdl-card__actions button{
+    background-color: #57386E;
+}
+.mdl-card-admin:nth-child(2n+1) .mdl-card__actions button{
+    background-color: #588B8B;
 }
 .mdl-card-challenge{
     display: inline-block;
     max-width: 215px;
-    margin: 3px;
+    margin: 5px;
+    min-height: 100%;
+}
+.mdl-card-challenge .mdl-button--icon{
+    height: 30px;
+    width: 30px;
+    min-width: 30px;
 }
 .mdl-card-challenge .mdl-card__title{
     padding: 5px;
@@ -87,13 +133,89 @@
 .mdl-card-challenge .mdl-card__title img{
     width: 100%;
 }
+.mdl-card-challenge .mdl-card__supporting-text{
+    padding: 5px 10px;
+}
 .mdl-card-folder{
     min-height: 100%;
     display: inline-block;
     max-width: 215px;
     margin: 5px;
 }
+.mdl-card-folder .mdl-card__title{
+    padding: 10px;
+}
+.mdl-card-folder .mdl-card__title i{
+    color: #57386E;
+}
 .mdl-card-folder h2{
     font-size: 16px;
     color: #57386E;
+    font-weight: bold;
+}
+.inline{
+    display: inline-block;
+    vertical-align: middle;
+}
+.login img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.login p{
+    color: #757575;
+    font-weight: bold;
+    margin: 0;
+}
+
+/*INPUTS*/
+#inputs{
+    padding: 10px 0 30px 0;
+}
+.input-group .mdl-button{
+    min-width: 36px;
+}
+.form-control {
+    height: 37px;
+}
+.inputs-add:nth-child(1) .input-group span button {
+    background-color: #588B8B;
+}
+.inputs-add:nth-child(2) .input-group span button {
+    background-color: #57386E;
+}
+.inputs-add:nth-child(3) .input-group span button {
+    background-color: #FFFFFF;
+}
+.inputs-add:nth-child(3) .input-group span button i{
+    color: #757575;
+}
+.inputs-add .input-group span button i{
+    color: #FFFFFF;
+}
+
+/*Tamaños*/
+.width-125{
+    max-width: 130px;
+}
+.width-850{
+    max-width: 850px;
+}
+
+/*EMPTY*/
+.empty{
+    padding:100px 10px;
+}
+.empty p{
+    margin: 0;
+    color: #000000;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 1024px){
+   .mdl-layout--fixed-drawer>.mdl-layout__content {
+        margin-left: 0;
+    }
 }

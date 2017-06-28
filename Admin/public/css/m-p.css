@@ -17,6 +17,10 @@
 	padding-right: 0 !important;
 	padding-left: 0 !important; 
 }
+.p-rl-10{
+	padding-right: 10px !important;
+	padding-left: 10px !important; 
+}
 .m-0{
 	margin: 0 !important;
 }
