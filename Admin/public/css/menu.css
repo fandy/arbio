@@ -14,7 +14,9 @@
 .mdl-layout__drawer .mdl-navigation .mdl-navigation__link{
     padding: 5px 15px;
     text-align: center;
+    text-decoration: none;
 }
+.mdl-layout__drawer .mdl-navigation .mdl-navigation__link:hover,
 .mdl-navigation__link.active{
     background-color: #57386E;
 }
@@ -49,6 +51,16 @@
     max-width: 1200px;
     margin: auto;
     text-align: center;
+}
+.arrow-right {
+    width: 0; 
+    height: 0; 
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent; 
+    border-right:10px solid #FFFFFF; 
+    right: 0;
+    margin-top: 25px;
+    position: absolute;
 }
 /*CARDS*/
 .mdl-card{
