@@ -205,6 +205,10 @@
 .width-850{
     max-width: 850px;
 }
+.width-260 {
+    max-width: 260px;
+    margin-right: 20px;
+}
 
 /*EMPTY*/
 .empty{
