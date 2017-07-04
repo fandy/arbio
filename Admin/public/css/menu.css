@@ -223,20 +223,15 @@
     max-width: 1140px;
     margin: auto;
 }
-
-
-#switchIdioma .mdl-switch__thumb{
-    text-align: center;
-}   
-    
+  
 .mdl-switch{
     width: inherit;
 }
 
 .mdl-switch__thumb:before{
-    content:"ES";
+    content:"OFF";
     font-size: 10px;
-    line-height: 10px;
+    vertical-align: middle;
 }
 
 .mdl-switch.is-upgraded {
@@ -257,14 +252,23 @@
     background: #588B8B;
 }
 .is-checked .mdl-switch__thumb:before{
-    content:"EN";
+    content:"ON";
     color: #FFFFFF
 }
 .mdl-switch.is-checked .mdl-switch__track,
 .mdl-switch__ripple-container .mdl-ripple{
-        background: #588B8B;
+        background: #E0E0E0;
 }
-
+ thead tr th{
+    color: #5F4175;
+ }
+ .table>thead>tr>th{
+    border-bottom: 2px solid #588B8B;
+    vertical-align: middle;
+ }
+ .table>tbody>tr>td{
+    vertical-align: middle;  
+ }
 
 @media screen and (max-width: 1024px){
    .mdl-layout--fixed-drawer>.mdl-layout__content {
