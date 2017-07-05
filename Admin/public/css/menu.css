@@ -205,6 +205,10 @@
 .width-850{
     max-width: 850px;
 }
+.width-600{
+    max-width: 600px;
+    margin: auto;
+}
 .width-260 {
     max-width: 260px;
     margin-right: 20px;
@@ -222,10 +226,44 @@
 }
 .mdl-card{
     width: 100%;
+    margin: 15px;
 }
 .mdl-card-contenido{
     max-width: 1140px;
-    margin: auto;
+    margin: 15px auto;
+}
+
+.mdl-tabs .mdl-tabs__tab{
+    background-color: #57386E;
+    color: #FFFFFF;
+    width: 100%;
+    text-decoration: none;
+}
+
+.mdl-tabs.is-upgraded .mdl-tabs__tab.is-active{
+    background-color: #588B8B;
+    color: #FFFFFF;
+}
+.mdl-tabs.is-upgraded .mdl-tabs__tab.is-active:after{
+    background-color: #FF386E;
+    height: 4px;
+}
+
+.contenido-upload{
+    margin: 30px 100px;
+    border: 2px dashed #CECECE;
+    padding: 40px;
+    color: #57386E;
+}
+.image-upload i{
+    font-size: 100px;
+    color: #57386E;
+}
+button.border-button:hover,
+button.border-button{
+    background-color: #57386E;
+    color: #FFFFFF;
+    border-radius: 20px;
 }
   
 .mdl-switch{
