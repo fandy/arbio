@@ -208,6 +208,8 @@
 .width-600{
     max-width: 600px;
     margin: auto;
+    border: 2px dashed #CECECE;
+    padding: 40px;
 }
 .width-260 {
     max-width: 260px;
@@ -250,8 +252,7 @@
 }
 
 .contenido-upload{
-    margin: 30px 100px;
-    border: 2px dashed #CECECE;
+    background-color: #FFFFFF;
     padding: 40px;
     color: #57386E;
 }
