@@ -157,6 +157,9 @@
     color: #57386E;
     font-weight: bold;
 }
+.inputs-add{
+    margin: 10px 0;
+}
 .inline{
     display: inline-block;
     vertical-align: middle;
