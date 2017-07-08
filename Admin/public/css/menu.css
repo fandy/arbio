@@ -144,7 +144,7 @@
     min-height: 100%;
     display: inline-block;
     max-width: 215px;
-    margin: 5px;
+    margin: 5px !important;
 }
 .mdl-card-folder .mdl-card__title{
     padding: 10px;
