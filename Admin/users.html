@@ -249,7 +249,7 @@
 			</section>
 		</main>
 
-		<div class="modal fade" id="modalNewUser" tabindex="-1" role="dialog" aria-labelledby="simpleModalLabel" aria-hidden="true">
+		<div class="modal fade p-0" id="modalNewUser" tabindex="-1" role="dialog" aria-labelledby="simpleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-md">
 				<div class="modal-content">                
                     <div class="mdl-card">
@@ -271,11 +271,11 @@
 								<label>EMAIL</label>
 								<input type="text" class="form-control">
 							</div>
-							<div class="col-sm-12 mdl-input p-0 m-b-20">
-								<div class="col-sm-4 p-0">
+							<div class="col-sm-12 col-xs-12 mdl-input p-0 m-b-20">
+								<div class="col-sm-4 col-xs-6 p-0">
 									<button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised border-button">SET PASSWORD</button>
 								</div>
-								<div class="col-sm-8 p-0">
+								<div class="col-sm-8 col-xs-6 p-0">
 									<input type="password" class="form-control">
 								</div>
 							</div>
@@ -283,18 +283,24 @@
 								<h2>USER PERMISSIONS</h2>
 							</div>
 							<p>Set permissions here for users by checking or unchecking each box. Users can have view-only permissions, asset-upload permissions, user management or full admin rights.</p>
-							<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-1">
-								<input type="checkbox" id="checkbox-1" class="mdl-checkbox__input">
-								<span class="mdl-checkbox__label">User can only view assets on desktop and mobile app.</span>
-							</label>
-							<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-2">
-								<input type="checkbox" id="checkbox-2" class="mdl-checkbox__input">
-								<span class="mdl-checkbox__label">User is allowed to upload & manage assets.</span>
-							</label>
-							<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-3">
-								<input type="checkbox" id="checkbox-3" class="mdl-checkbox__input">
-								<span class="mdl-checkbox__label">User can manage & add users under the allocated plan.</span>
-							</label>
+							<div class="col-sm-12 p-0">
+								<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-1">
+									<input type="checkbox" id="checkbox-1" class="mdl-checkbox__input">
+									<span class="mdl-checkbox__label">User can only view assets on desktop and mobile app.</span>
+								</label>
+							</div>
+							<div class="col-sm-12 p-0">
+								<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-2">
+									<input type="checkbox" id="checkbox-2" class="mdl-checkbox__input">
+									<span class="mdl-checkbox__label">User is allowed to upload & manage assets.</span>
+								</label>
+							</div>
+							<div class="col-sm-12 p-0">
+								<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-3">
+									<input type="checkbox" id="checkbox-3" class="mdl-checkbox__input">
+									<span class="mdl-checkbox__label">User can manage & add users under the allocated plan.</span>
+								</label>
+							</div>
 						</div>
 						<div class="mdl-card__actions text-right">
 							<button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised verde m-r-10">SAVE</button>
