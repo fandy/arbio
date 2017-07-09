@@ -78,6 +78,9 @@
 .mdl-card__actions{
     padding: 16px;
 }
+.modal .mdl-card__actions{
+    padding: 30px 16px;
+}
 .mdl-card-admin{
     display: inline-block;
     max-width: 260px;
