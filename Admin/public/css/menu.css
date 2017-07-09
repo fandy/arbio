@@ -200,6 +200,9 @@
 .inputs-add .input-group span button i{
     color: #FFFFFF;
 }
+.mdl-input{
+    margin:10px 0;
+}
 
 /*Tamaños y colores*/
 .width-125{
