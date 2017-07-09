@@ -89,7 +89,7 @@
     padding: 5px 10px;
     border-bottom: 1px solid;
 }
-.mdl-card-admin .mdl-card__actions button{
+.mdl-card__actions button{
     min-width: 160px;
     border-radius: 25px;
     color: #FFFFFF;
@@ -201,7 +201,7 @@
     color: #FFFFFF;
 }
 
-/*Tamaños*/
+/*Tamaños y colores*/
 .width-125{
     max-width: 130px;
 }
@@ -220,6 +220,14 @@
 }
 .border-top{
     border-top: 8px solid #57386E;
+}
+.verde:hover,
+.verde{
+    background-color: #588B8B;
+}
+.morado:hover,
+.morado{
+    background-color: #57386E;
 }
 
 /*EMPTY*/
