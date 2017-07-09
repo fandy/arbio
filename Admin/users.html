@@ -75,7 +75,7 @@
 			            	<p>left</p>
 			            </div>
 			            <div class="mdl-card__actions">
-			                <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised">ADD USER</button>
+			                <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised" data-toggle="modal" data-target="#modalNewUser">ADD USER</button>
 			            </div>
 					</div>
 					<div class="mdl-card mdl-card-admin">
@@ -131,7 +131,7 @@
 										<td>KALID BOUKDID</td>
 										<td>30-05-2017</td>
 										<td>54 SCANS</td>
-										<td class="text-center"><button class="mdl-button mdl-js-button mdl-button--icon">
+										<td class="text-center"><button class="mdl-button mdl-js-button mdl-button--icon" data-toggle="modal" data-target="#modalNewUser">
 												<i class="mdi mdi-edit"></i>
 											</button>
 										</td>
@@ -248,6 +248,41 @@
 				</div>
 			</section>
 		</main>
+
+		<div class="modal fade" id="modalNewUser" tabindex="-1" role="dialog" aria-labelledby="simpleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-md">
+				<div class="modal-content">                
+                    <div class="mdl-card">
+						<div class="mdl-card__title border-top">
+						</div>
+						<div class="mdl-card__supporting-text p-tp-0">
+							<div class="title-user">
+								<h2>USER INFO</h2>
+							</div>
+							<div class="title-user">
+								<h2>USER PERMISSIONS</h2>
+							</div>
+							<p>Set permissions here for users by checking or unchecking each box. Users can have view-only permissions, asset-upload permissions, user management or full admin rights.</p>
+							<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-1">
+								<input type="checkbox" id="checkbox-1" class="mdl-checkbox__input">
+								<span class="mdl-checkbox__label">User can only view assets on desktop and mobile app.</span>
+							</label>
+							<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-2">
+								<input type="checkbox" id="checkbox-2" class="mdl-checkbox__input">
+								<span class="mdl-checkbox__label">User is allowed to upload & manage assets.</span>
+							</label>
+							<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-3">
+								<input type="checkbox" id="checkbox-3" class="mdl-checkbox__input">
+								<span class="mdl-checkbox__label">User can manage & add users under the allocated plan.</span>
+							</label>
+						</div>
+						<div class="mdl-card__actions">
+
+						</div>
+                    </div>
+                </div>
+            </div>
+        </div>
 	</div>
 
 	<script src="public/js/jquery-3.1.0.min.js"></script>

@@ -218,6 +218,9 @@
     max-width: 260px;
     margin-right: 20px;
 }
+.border-top{
+    border-top: 8px solid #57386E;
+}
 
 /*EMPTY*/
 .empty{
@@ -231,7 +234,6 @@
 }
 .mdl-card{
     width: 100%;
-    margin: 15px;
 }
 .mdl-card-contenido{
     max-width: 1140px;
@@ -314,6 +316,31 @@ button.border-button{
  }
  .table>tbody>tr>td{
     vertical-align: middle;  
+ }
+
+ /*MODALES*/
+ .modal-dialog p{
+    color: #000;
+ }
+ .title-user{
+    border-bottom: 5px solid #588B8B;
+    padding: 5px 0;
+    margin-bottom: 15px;
+ }
+ .title-user h2{
+    margin: 0;
+    font-size: 18px;
+    line-height: 1;
+    color: #57386E;
+ }
+ label.mdl-checkbox{
+    font-weight: lighter;
+ }
+ .mdl-checkbox.is-checked .mdl-checkbox__box-outline{
+    border: 2px solid #57386E;
+ }
+ .mdl-checkbox.is-checked .mdl-checkbox__tick-outline{
+    background-color: #57386E;
  }
 
 @media screen and (max-width: 1024px){
