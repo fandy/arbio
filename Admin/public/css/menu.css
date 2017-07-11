@@ -97,6 +97,8 @@
     border-radius: 25px;
     color: #FFFFFF;
     height: 40px;
+    transition: min-width .3s ease;
+    -webkit-transition: min-width .3s ease;
 }
 .mdl-card-admin .mdl-card__supporting-text p:nth-child(2){
     margin: auto;
@@ -211,6 +213,9 @@
 .width-125{
     max-width: 130px;
 }
+.width-260 {
+    max-width: 260px;
+}
 .width-850{
     max-width: 850px;
 }
@@ -220,10 +225,7 @@
     border: 2px dashed #CECECE;
     padding: 40px;
 }
-.width-260 {
-    max-width: 260px;
-    margin-right: 20px;
-}
+
 .border-top{
     border-top: 8px solid #57386E;
 }
@@ -361,6 +363,21 @@ button.border-button{
     width: 200px;
     border-radius: 50%;
  }
+
+@media screen and (max-width: 420px){
+    .modal-dialog .mdl-card__actions button{
+        min-width: 115px;
+    }
+    .mdl-card-admin{
+        margin: 15px 0;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .table-responsive{
+        border: none;
+    }
+}
 
 @media screen and (max-width: 1024px){
    .mdl-layout--fixed-drawer>.mdl-layout__content {

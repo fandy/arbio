@@ -56,13 +56,13 @@
 	margin-top: 16px !important;
 }
 .m-b-16{
-	margin-bottom: 16 !important;
+	margin-bottom: 16px !important;
 }
 .m-l-16{
-	margin-left: 16 !important;
+	margin-left: 16px !important;
 }
 .m-r-16{
-	margin-right: 16 !important;
+	margin-right: 16px !important;
 }
 .m-t-20{
 	margin-top: 20px !important;
@@ -91,9 +91,7 @@
 	margin-left: 30px !important;
 }
 .m-r-30{
-	margin-right: 16 !important;
-	padding-right: 0 !important;
-	padding-left: 0 !important; 
+	margin-right: 30px !important;
 }
 
 .p-20{
