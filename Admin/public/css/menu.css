@@ -359,10 +359,81 @@ button.border-button{
  .mdl-checkbox.is-checked .mdl-checkbox__tick-outline{
     background-color: #57386E;
  }
- .nouser-profile{
+ /* --------------------------
+ *       PHOTO
+ * --------------------------
+ */
+.mdl-photo{
+    background-color: #FFFFFF;
+    cursor: pointer;
+    overflow: hidden;
+    margin: auto;
+    text-align: center; 
+    padding: 0;
     width: 200px;
+}
+
+.mdl-img {
     border-radius: 50%;
- }
+    width: 200px;
+    margin: auto 0;
+    cursor: pointer;
+    border: 3px solid;
+    border-color: #FFFFFF;  
+    opacity: 1; 
+    -webkit-transition: border-color .5s ease-in, opacity .5s ease-in;  
+       -moz-transition: border-color .5s ease-in, opacity .5s ease-in;  
+        -ms-transition: border-color .5s ease-in, opacity .5s ease-in;
+         -o-transition: border-color .5s ease-in, opacity .5s ease-in;  
+            transition: border-color .5s ease-in, opacity .5s ease-in;  
+}
+
+.mdl-photo:hover .mdl-img{
+    opacity: 0.5;   
+    border-color: #57386E !important;
+}
+
+.mdl-photo .fade-caption i{
+    font-size: 42px;
+    color: #57386E;
+    position:absolute;
+    right: -webkit-calc(50% - 20.5px);
+    right: -moz-calc(50% - 20.5px); 
+    right: -ms-calc(50% - 20.5px);  
+    right: -o-calc(50% - 20.5px);   
+    right: calc(50% - 20.5px);  
+    top: 75px;
+    opacity: 0;
+    -webkit-transform: scale(0);
+       -moz-transform: scale(0);
+        -ms-transform: scale(0);
+         -o-transform: scale(0);
+            transform: scale(0);
+    -webkit-transition: opacity .5s ease-in, transform.25s ease-in;
+       -moz-transition: opacity .5s ease-in, transform.25s ease-in;
+        -ms-transition: opacity .5s ease-in, transform.25s ease-in;
+         -o-transition: opacity .5s ease-in, transform.25s ease-in;
+            transition: opacity .5s ease-in, transform.25s ease-in;
+}
+
+.mdl-photo:hover .fade-caption i{
+    opacity:1;
+    -webkit-transform: scale(1);
+       -moz-transform: scale(1);
+        -ms-transform: scale(1);
+         -o-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform: scale(1);
+}
+input[type=file]{
+    display: block;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
 
 @media screen and (max-width: 420px){
     .modal-dialog .mdl-card__actions button{
