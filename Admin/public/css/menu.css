@@ -508,6 +508,53 @@ p.title-pricing{
     margin: 30px auto;
     text-decoration: underline;
 }
+/*MDL-CARD-SUMARY*/
+.mdl-card-summary{
+    margin: 40px auto;
+    padding: 35px;
+}
+.mdl-card-summary tbody tr:nth-child(1),
+.mdl-card-summary tbody tr:nth-child(3){
+    border-bottom: 1px solid #757575;
+}
+.mdl-card-summary th,td{
+    padding: 20px 0;
+    letter-spacing: 0;
+}
+.mdl-card-summary tr th:nth-child(2),
+.mdl-card-summary tr td:nth-child(2){
+    text-align: right;
+}
+.mdl-card-summary .mdl-card__supporting-text.checkout{
+    max-width: 650px;
+    margin: 60px auto;
+}
+.mdl-button.mdl-js-button.mdl-button--raised.register i{
+    vertical-align: middle;
+    color: #ffffff;
+    margin-right: 20px;
+}
+.mdl-card-summary .mdl-checkbox{
+    margin-bottom: 25px;
+}
+.mdl-card-summary .mdl-checkbox a{
+    color: #757575;
+    font-weight: bold;
+}
+.mdl-checkbox.is-checked .mdl-checkbox__box-outline{
+    border: 2px solid #581E4C;
+}
+.mdl-checkbox.is-checked .mdl-checkbox__tick-outline{
+    background-color: #581E4C;
+}
+.mdl-checkbox__label{
+    font-size: 13px;
+    color: #757575;
+    line-height: 1;
+}
+.mdl-card.mdl-box-shadow{
+    box-shadow: none;
+}
 @media screen and (max-width: 420px){
     .modal-dialog .mdl-card__actions button{
         min-width: 115px;
