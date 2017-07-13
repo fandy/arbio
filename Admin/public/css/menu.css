@@ -434,7 +434,80 @@ input[type=file]{
     height: 200px;
     cursor: pointer;
 }
+/*MDL-CARD-PRICING*/
+.mdl-card-pricing{
+    max-width: 250px;
+    display: inline-block;
+    border-radius: 5px;
+    vertical-align: top;
+    margin: 15px 12px;
+    transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+}
+.mdl-card-pricing .mdl-card__title{
+    display: block;
+}
+.mdl-card-pricing .mdl-card__title h2{
+    margin: auto;
+    display: block;
+    color: #FFFFFF;
+    font-size: 18px
+}
+.mdl-card-pricing .mdl-card__title h3{
+    font-size: 18px;
+    color: #FFFFFF;
+    padding-top: 5px;
+}
+.mdl-card-pricing .mdl-card__title h1{
+    color: #FFFFFF;
+    font-size: 50px;
+    font-weight: lighter;
+}
+.mdl-card-pricing .mdl-card__title strong{
+    font-size: 50px;
+}
+.mdl-card-pricing .mdl-card__supporting-text ul{
+    padding-left: 0;
+}
+.mdl-card-pricing .mdl-card__supporting-text ul li{
+    padding: 10px;
+    border-top: 1px solid #C2BFC1;
+    font-size: 16px;
+    list-style: none;
+}
+.mdl-card-pricing:nth-child(1){
+    box-shadow: 0 14px 30px rgba(88, 139, 139, 0.45), 0 5px 5px rgba(0,0,0,0.22);
+}
+.mdl-card-pricing:nth-child(2){
+    box-shadow: 0 14px 30px rgba(88, 30, 76, 0.45), 0 5px 5px rgba(0,0,0,0.22);
+}
+.mdl-card-pricing:nth-child(3){
+    box-shadow: 0 14px 30px rgba(88, 139, 139, 0.45), 0 5px 5px rgba(0,0,0,0.22);
+}
 
+.mdl-card-pricing:nth-child(1) .mdl-button,
+.mdl-card-pricing:nth-child(1) .mdl-card__title{
+    background-color: #588B8B !important;
+}
+.mdl-card-pricing:nth-child(2) .mdl-button,
+.mdl-card-pricing:nth-child(2) .mdl-card__title{
+    background-color: #581E4C !important;
+}
+.mdl-card-pricing:nth-child(3) .mdl-button,
+.mdl-card-pricing:nth-child(3) .mdl-card__title{
+    background-color: #39396F !important;
+}
+.mdl-button.mdl-js-button.mdl-button--raised.register{
+    width: 100%;
+    text-transform: initial;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 0 25px;
+    height: 45px;
+}
+p.title-pricing{
+    margin: 30px auto;
+    text-decoration: underline;
+}
 @media screen and (max-width: 420px){
     .modal-dialog .mdl-card__actions button{
         min-width: 115px;
