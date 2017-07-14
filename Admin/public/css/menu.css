@@ -555,6 +555,10 @@ p.title-pricing{
 .mdl-card.mdl-box-shadow{
     box-shadow: none;
 }
+.mdl-card-table{
+    max-width: 1140px;
+    margin: auto;
+}
 @media screen and (max-width: 420px){
     .modal-dialog .mdl-card__actions button{
         min-width: 115px;
