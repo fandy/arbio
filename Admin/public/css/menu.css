@@ -1,7 +1,12 @@
 ﻿.mdl-layout__container{
     background-color: #EEF0F3;
 }
-
+.mdl-layout__header-row{
+    height: 55px;
+}
+.mdl-layout__header{
+    min-height: 55px;
+}
 .mdl-layout-title{
     padding: 0 15px !important;
     line-height: 45px !important;
@@ -24,7 +29,7 @@
     display: block;
 }
 .mdl-navigation__link i{
-    font-size: 35px;
+    font-size: 32px;
     color: #FFFFFF;
 }
 .mdl-navigation__link p{
@@ -85,12 +90,13 @@
     display: inline-block;
     max-width: 260px;
     margin: 15px;
-    height: 225px;
+    height: 210px;
 }
 .mdl-card-admin .mdl-card__title h2{
     margin: auto;
     padding: 5px 10px;
     border-bottom: 1px solid;
+    font-size: 18px;
 }
 .mdl-card__actions button{
     min-width: 160px;
