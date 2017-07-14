@@ -103,7 +103,7 @@
 						<div class="col-md-9 col-sm-6 col-xs-12 inputs-add inline">
 							<div class="input-group">
 								<span class="input-group-btn">
-									<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect m-0 height-45 morado p-0" type="button" tabindex="-1"><i class="mdi mdi-search inline"></i></button>
+									<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect m-0 height-45 morado p-0" type="button" tabindex="-1" data-toggle="modal" data-target="#modalContact"><i class="mdi mdi-search inline"></i></button>
 								</span>
 								<input type="text" class="form-control" placeholder="Search assets" aria-describedby="name1">
 							</div>
@@ -506,6 +506,52 @@
 				    		</div>
 				    	</div>
 					</div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade p-0" id="modalContact" tabindex="-1" role="dialog" aria-labelledby="simpleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-md">
+				<div class="modal-content">                
+                    <div class="mdl-card">
+						<div class="mdl-card__title border-top">
+						</div>
+						<div class="mdl-card__supporting-text p-t-0">
+							<div class="title-user">
+								<h2>Fill in this information form and we will contact you as soon as possible</h2>
+							</div>
+							<div class="col-sm-6 mdl-input">
+								<label>FIRST NAME</label>
+								<input type="text" class="form-control">
+							</div>
+							<div class="col-sm-6 mdl-input">
+								<label>LAST NAME</label>
+								<input type="text" class="form-control">
+							</div>
+							<div class="col-sm-6 mdl-input">
+								<label>WORK EMAIL</label>
+								<input type="text" class="form-control">
+							</div>
+							<div class="col-sm-6 mdl-input">
+								<label>COMPANY MAIL</label>
+								<input type="text" class="form-control">
+							</div>
+							<div class="col-sm-6 mdl-input">
+								<label>PHONE NUMBER</label>
+								<input type="text" class="form-control">
+							</div>
+							<div class="col-sm-6 mdl-input">
+								<label>NUMBER OF EMPLOYEES</label>
+								<input type="text" class="form-control">
+							</div>
+							<div class="col-sm-12 mdl-input">
+								<label>HOW DO YOU INTEND TO USE AUGMENTED REALITY?</label>
+								<textarea class="form-control" rows="5"></textarea>
+							</div>
+						</div>
+						<div class="mdl-card__actions text-center">
+							<button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised verde">SEND FORM</button>
+						</div>
+                    </div>
                 </div>
             </div>
         </div>
