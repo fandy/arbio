@@ -444,6 +444,17 @@ input[type=file]{
     max-width: 100px;
     display: inline-block;
 }
+input[type=file].input-file{
+    display: block;
+    position: absolute;
+    top: 30px;
+    opacity: 1 !important;
+    width: initial;
+    height: initial;
+    cursor: pointer;
+    left: 30px;
+    color: transparent;
+}
 /*MDL-CARD-PRICING*/
 .mdl-card-pricing{
     max-width: 250px;
