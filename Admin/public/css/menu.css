@@ -260,6 +260,13 @@
 .mdl-card-contenido{
     max-width: 1140px;
     margin: 15px auto;
+    padding: 15px 0;
+}
+.mdl-card-contenido label{
+    width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 .mdl-tabs .mdl-tabs__tab{
@@ -441,13 +448,13 @@ input[type=file]{
     cursor: pointer;
 }
 .input-dimension{
-    max-width: 100px;
+    max-width: 32%;
     display: inline-block;
 }
 input[type=file].input-file{
     display: block;
     position: absolute;
-    top: 30px;
+    top: 35px;
     opacity: 1 !important;
     width: initial;
     height: initial;
@@ -661,6 +668,11 @@ p.title-pricing{
     }
     .form-wizard.form-wizard-horizontal .form-wizard-nav .nav-justified>li{
         margin: 0 12px;
+    }
+}
+@media screen and (max-width: 710px){
+    .mdl-card-contenido .col-xs-6{
+        width: 100%;
     }
 }
 @media (max-width : 560px) {
