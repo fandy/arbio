@@ -12,7 +12,7 @@
     line-height: 45px !important;
 }
 .mdl-layout-title i{
-    font-size: 70px;
+    font-size: 52px;
     color: #FFFFFF;
 }
 
@@ -29,12 +29,13 @@
     display: block;
 }
 .mdl-navigation__link i{
-    font-size: 32px;
+    font-size: 24px;
     color: #FFFFFF;
 }
 .mdl-navigation__link p{
     margin: 0;
     color: #FFFFFF;
+    font-size: 12px;
 }
 .mdl-layout--fixed-drawer.is-upgraded:not(.is-small-screen)>.mdl-layout__header{
     margin-left: 0;
@@ -49,14 +50,14 @@
 }
 .mdl-layout__drawer{
     background-color: #38386E;
-    width: 100px;
+    width: 80px;
 }
 
 .mdl-section{
     padding: 20px 25px;
 }
 .mdl-content-cards{
-    max-width: 1200px;
+    max-width: 1050px;
     margin: auto;
     text-align: center;
 }
@@ -88,21 +89,25 @@
 }
 .mdl-card-admin{
     display: inline-block;
-    max-width: 260px;
-    margin: 15px;
-    height: 210px;
+    max-width: 235px;
+    margin: 12px;
+    height: 200px;
+}
+.mdl-card-admin p{
+    margin: 0 0 10px;
 }
 .mdl-card-admin .mdl-card__title h2{
     margin: auto;
     padding: 5px 10px;
     border-bottom: 1px solid;
-    font-size: 18px;
+    font-size: 16px;
 }
 .mdl-card__actions button{
     min-width: 160px;
     border-radius: 25px;
     color: #FFFFFF;
-    height: 40px;
+    height: 35px;
+    font-size: 12px;
     transition: min-width .3s ease;
     -webkit-transition: min-width .3s ease;
 }
@@ -154,7 +159,7 @@
 .mdl-card-folder{
     min-height: 100%;
     display: inline-block;
-    max-width: 215px;
+    max-width: 195px;
     margin: 5px !important;
 }
 .mdl-card-folder .mdl-card__title{
@@ -164,7 +169,7 @@
     color: #57386E;
 }
 .mdl-card-folder h2{
-    font-size: 16px;
+    font-size: 14px;
     color: #57386E;
     font-weight: bold;
 }
@@ -342,6 +347,7 @@ button.border-button{
  .table>thead>tr>th{
     border-bottom: 2px solid #588B8B;
     vertical-align: middle;
+    font-size: 13px;
  }
  .table>tbody>tr>td{
     vertical-align: middle;  
@@ -548,6 +554,7 @@ p.title-pricing{
 .mdl-card-summary th,td{
     padding: 20px 0;
     letter-spacing: 0;
+    font-size: 13px;
 }
 .mdl-card-summary tr th:nth-child(2),
 .mdl-card-summary tr td:nth-child(2){
