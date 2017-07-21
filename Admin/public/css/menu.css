@@ -167,17 +167,20 @@
 .mdl-card-folder{
     min-height: 100%;
     display: inline-block;
-    max-width: 195px;
-    margin: 5px !important;
+    max-width: 215px;
+    margin: 10px !important;
 }
 .mdl-card-folder .mdl-card__title{
-    padding: 10px;
+    padding: 8px 15px;
+    width: 100%;
+    text-align: left;
+
 }
 .mdl-card-folder .mdl-card__title i{
     color: #57386E;
 }
 .mdl-card-folder h2{
-    font-size: 14px;
+    font-size: 13px;
     color: #57386E;
     font-weight: bold;
 }
@@ -200,9 +203,6 @@
 }
 
 /*INPUTS*/
-#inputs{
-    padding: 10px 0 30px 0;
-}
 .input-group .mdl-button{
     min-width: 36px;
 }
