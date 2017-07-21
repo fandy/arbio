@@ -143,12 +143,7 @@
     color: #588B8B;
     border-color: #588B8B;
 }
-.mdl-card-admin:nth-child(2n) .mdl-card__actions button{
-    background-color: #57386E;
-}
-.mdl-card-admin:nth-child(2n+1) .mdl-card__actions button{
-    background-color: #588B8B;
-}
+
 .mdl-card-challenge{
     display: inline-block;
     max-width: 215px;
