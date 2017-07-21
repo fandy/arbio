@@ -42,7 +42,7 @@
     width: 100%;
 }
 .mdl-layout--fixed-drawer>.mdl-layout__content{
-    margin-left: 100px;
+    margin-left: 80px;
 }
 
 .mdl-layout__header{
@@ -54,10 +54,10 @@
 }
 
 .mdl-section{
-    padding: 20px 25px;
+    padding: 20px 10px;
 }
 .mdl-content-cards{
-    max-width: 1050px;
+    max-width: 1235px;
     margin: auto;
     text-align: center;
 }
@@ -90,11 +90,24 @@
 .mdl-card-admin{
     display: inline-block;
     max-width: 235px;
-    margin: 12px;
+    /*margin-top: 0;
+    margin-bottom: 15px;
+    margin-right: 35px;
+    margin-left: 35px;*/
     height: 200px;
+    margin: 5px;
 }
+/*.mdl-card-admin:nth-child(1){
+    margin-left: 5px;
+}
+.mdl-card-admin:nth-child(4){
+    margin-right: 5px;
+}*/
 .mdl-card-admin p{
     margin: 0 0 10px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
 }
 .mdl-card-admin .mdl-card__title h2{
     margin: auto;
@@ -645,15 +658,6 @@ p.title-pricing{
     font-weight: 600;
     text-decoration: underline;
 }
-@media screen and (max-width: 420px){
-    .modal-dialog .mdl-card__actions button{
-        min-width: 115px;
-    }
-    .mdl-card-admin{
-        margin: 15px 0;
-    }
-}
-
 
 @media screen and (max-width: 1024px){
    .mdl-layout--fixed-drawer>.mdl-layout__content {
@@ -711,6 +715,22 @@ p.title-pricing{
     .form-wizard.form-wizard-horizontal .form-wizard-nav .progress{
         width: 40%;
         top: 32px;
+    }
+}
+@media screen and (max-width: 480px){
+    .mdl-card-admin .mdl-card__actions button{
+        min-width: 115px;
+    }
+}
+@media screen and (max-width: 420px){
+    .modal-dialog .mdl-card__actions button{
+        min-width: 115px;
+    }
+    .mdl-card-admin{
+        margin: 15px 0;
+    }
+    .col-md-12 .col-md-3.col-xs-6{
+        width: 100%;
     }
 }
 
