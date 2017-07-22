@@ -678,6 +678,13 @@ p.title-pricing{
     .mdl-content-cards{
         max-width: 550px;
     }
+    .col-md-3.col-md-offset-0.col-sm-4,
+    .col-md-12 .col-md-3.col-sm-4{
+        width: 50%;
+    }
+    .col-md-3.col-md-offset-0.col-sm-4{
+        margin-left: 0;
+    }
 }
 @media screen and (max-width: 710px){
     .mdl-card-contenido .col-xs-6{
