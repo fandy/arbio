@@ -675,6 +675,9 @@ p.title-pricing{
     .form-wizard.form-wizard-horizontal .form-wizard-nav .nav-justified>li{
         margin: 0 12px;
     }
+    .mdl-content-cards{
+        max-width: 550px;
+    }
 }
 @media screen and (max-width: 710px){
     .mdl-card-contenido .col-xs-6{
