@@ -147,7 +147,7 @@
 .mdl-card-challenge{
     display: inline-block;
     max-width: 215px;
-    margin: 5px !important;
+    margin: 10px !important;
     min-height: 100%;
 }
 .mdl-card-challenge .mdl-button--icon{
