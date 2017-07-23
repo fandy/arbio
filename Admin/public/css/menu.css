@@ -685,12 +685,24 @@ p.title-pricing{
     .col-md-3.col-md-offset-0.col-sm-4{
         margin-left: 0;
     }
+    #inputs.col-md-12{
+        padding: 0;
+    }
+    .mdl-card-folder{
+        max-width: 250px;
+    }
 }
 @media screen and (max-width: 710px){
     .mdl-card-contenido .col-xs-6{
         width: 100%;
     }
 }
+@media (max-width : 580px) {
+    .mdl-card-folder{
+        max-width: 200px;
+    }
+}
+
 @media (max-width : 560px) {
     .form-wizard.form-wizard-horizontal .form-wizard-nav .nav-justified>li{
         margin: 0 10px;
@@ -699,6 +711,14 @@ p.title-pricing{
 @media (max-width : 500px) {
     .form-wizard.form-wizard-horizontal .form-wizard-nav .nav-justified>li{
         margin: 0;
+    }
+}
+@media screen and (max-width: 480px){
+    .mdl-card-admin .mdl-card__actions button{
+        min-width: 115px;
+    }
+    .mdl-card-folder{
+        max-width: 180px;
     }
 }
 @media (max-width : 460px) {
@@ -722,20 +742,28 @@ p.title-pricing{
         top: 32px;
     }
 }
-@media screen and (max-width: 480px){
-    .mdl-card-admin .mdl-card__actions button{
-        min-width: 115px;
+@media (max-width : 440px) {
+    .mdl-card-folder{
+        max-width: 250px;
     }
 }
+
 @media screen and (max-width: 420px){
     .modal-dialog .mdl-card__actions button{
         min-width: 115px;
     }
     .mdl-card-admin{
         margin: 15px 0;
+        max-width: 290px; 
     }
     .col-md-12 .col-md-3.col-xs-6{
         width: 100%;
+    }
+    .mdl-content-cards{
+        max-width: 320px;
+    }
+    .mdl-card-challenge{
+        max-width: 250px;
     }
 }
 
