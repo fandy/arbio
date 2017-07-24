@@ -599,8 +599,8 @@ p.title-pricing{
     box-shadow: none;
 }
 .mdl-card-table{
-    max-width: 1140px;
-    margin: auto;
+    max-width: 1165px;
+    margin: 10px auto;
 }
 /*wizard*/
 .form-wizard.form-wizard-horizontal .form-wizard-nav .progress{
@@ -653,7 +653,10 @@ p.title-pricing{
     font-weight: 600;
     text-decoration: underline;
 }
-
+.dropzone{
+    border: 0;
+    padding: 0;
+}
 @media screen and (max-width: 1024px){
    .mdl-layout--fixed-drawer>.mdl-layout__content {
         margin-left: 0;
@@ -691,6 +694,9 @@ p.title-pricing{
     .mdl-card-folder{
         max-width: 250px;
     }
+    #inputs .col-md-9.col-sm-6.col-xs-12.inputs-add.inline{
+        margin-bottom: 20px;
+    }
 }
 @media screen and (max-width: 710px){
     .mdl-card-contenido .col-xs-6{
@@ -714,6 +720,7 @@ p.title-pricing{
     }
 }
 @media screen and (max-width: 480px){
+    .mdl-card-contenido .mdl-card__actions button,
     .mdl-card-admin .mdl-card__actions button{
         min-width: 115px;
     }
@@ -764,6 +771,21 @@ p.title-pricing{
     }
     .mdl-card-challenge{
         max-width: 250px;
+    }
+    .contenido-upload{
+        padding: 10px;
+    }
+    .contenido-upload .width-600{
+        padding: 10px;
+    }
+    .mdl-card-contenido{
+        padding: 5px 0;
+    }
+    .mdl-card-contenido .mdl-card__actions{
+        padding: 5px;
+    }
+    .mdl-card-contenido .col-sm-12.col-xs-12{
+        padding: 0;
     }
 }
 

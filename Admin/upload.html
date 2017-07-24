@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="public/fonts/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="public/fonts/material-icons.css">
     <link rel="stylesheet" href="public/fonts/Material-Icons-new.css">
+    <link rel="stylesheet" href="public/css/dropzone.css">
     <link rel="stylesheet" href="public/css/m-p.css">
     <link rel="stylesheet" href="public/css/menu.css">
   </head>
@@ -113,14 +114,16 @@
 										<div class="row-fluid">
 											<div class="contenido-upload">
 												<div class="width-600">
-													<p>Upload your 3D models with obj or fbx file. When uploading .obj files, combine the model, textures & materials and upload it as a zip file. </p>
-													<div class="image-upload">
-														<i class="mdi mdi-cloud_upload"></i>
-														<p>Drag & Drop file to upload.</p>
-													</div>
-													<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect border-button">
-														OR SELECT FILE
-													</button>
+													<form action="/file-upload" class="dropzone" id="mydropzone">
+														<p>Upload your 3D models with obj or fbx file. When uploading .obj files, combine the model, textures & materials and upload it as a zip file. </p>
+														<div class="image-upload">
+															<i class="mdi mdi-cloud_upload"></i>
+															<p>Drag & Drop file to upload.</p>
+														</div>
+														<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect border-button">
+															OR SELECT FILE
+														</button>
+													</form>
 												</div>
 											</div>
 										</div>
@@ -270,6 +273,10 @@
 	<script src="public/js/jquery-3.1.0.min.js"></script>
     <script src="public/plugins/bootstrap/js/bootstrap.min.js"></script>
     <script src="public/plugins/mdl/material.min.js"></script>
+    <script src="public/js/dropzone.js"></script>
     <script src="public/js/jsmenu.js"></script>
+    <script type="text/javascript">
+    	$("#mydropzone").dropzone({ url: "/public/img/header" });
+    </script>
 </body>
 </html>
