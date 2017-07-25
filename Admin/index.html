@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="public/plugins/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="public/plugins/mdl/material.min.css">
     <link rel="stylesheet" href="public/fonts/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="public/fonts/atlas_font.css">
     <link rel="stylesheet" href="public/fonts/material-icons.css">
     <link rel="stylesheet" href="public/fonts/Material-Icons-new.css">
     <link rel="stylesheet" href="public/css/m-p.css">
@@ -21,11 +22,17 @@
 		<header class="mdl-layout__header">
 			<div class="mdl-layout__header-row">
 			    <div class="mdl-layout-spacer"></div>
-			    <div class="login text-right">
-					<img class="inline" src="public/img/header/nouser.jpg" alt="">
-					<p class="inline">John Doe</p>
-					<i class="mdi mdi-arrow_drop_down inline"></i>
-			    </div>
+		    	<div class="btn-group">
+					<button type="button" class="mdl-button mdl-js-button mdl-js-ripple-effect login dropdown-toggle" data-toggle="dropdown" 	aria-haspopup="true" aria-expanded="false">
+						<img class="inline" src="public/img/header/nouser.jpg" alt="">
+				    	<p class="inline">John Doe</p> 
+				    	<i class="mdi mdi-arrow_drop_down inline"></i>
+					</button>
+					<ul class="dropdown-menu">
+						<li><a href="#">Profile</a></li>
+						<li><a href="#">Logout</a></li>
+					</ul>
+				</div>
 			</div>
 		</header>
 		<div class="mdl-layout__drawer">
@@ -104,7 +111,7 @@
 						<div class="col-md-2 col-sm-6 col-xs-12 inputs-add inline">
 							<div class="input-group">
 								<span class="input-group-btn">
-									<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect m-0 height-45 morado p-0" type="button" tabindex="-1"><i class="mdi mdi-add inline"></i></button>
+									<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect m-0 height-45 verde p-0" type="button" tabindex="-1"><i class="mdi mdi-add inline"></i></button>
 								</span>
 								<input type="text" class="form-control" placeholder="Add asset" aria-describedby="name1">
 							</div>
@@ -120,7 +127,7 @@
 						<div class="col-md-8 col-sm-6-col-xs-12 inputs-add inline">
 							<div class="input-group">
 								<span class="input-group-btn">
-									<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect m-0 height-45 morado p-0" type="button" tabindex="-1"><i class="mdi mdi-search inline"></i></button>
+									<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect m-0 height-45 p-0" type="button" tabindex="-1"><i class="mdi mdi-search inline"></i></button>
 								</span>
 								<input type="text" class="form-control" placeholder="Search assets" aria-describedby="name1">
 							</div>
@@ -174,7 +181,43 @@
 				                	</div>
 				                	<div class="col-xs-4 text-right p-0">
 				                		<button class="mdl-button mdl-js-button mdl-button--icon inline">
-											<i class="mdi mdi-insert_drive_file"></i>
+											<i class="mdi mdi-obj"></i>
+										</button>
+				                		<button class="mdl-button mdl-js-button mdl-button--icon inline">
+											<i class="mdi mdi-delete"></i>
+										</button>
+				                	</div>
+				                </div>
+							</div>
+							<div class="mdl-card mdl-card-challenge">
+								<div class="mdl-card__title">
+				                    <img src="public/img/car-admin.jpg" alt="car">
+				                </div>
+				                <div class="mdl-card__supporting-text">
+				                	<div class="col-xs-8 text-left p-0">
+				                		<p>Dodge Challenger</p>
+				                	</div>
+				                	<div class="col-xs-4 text-right p-0">
+				                		<button class="mdl-button mdl-js-button mdl-button--icon inline">
+											<i class="mdi mdi-obj"></i>
+										</button>
+				                		<button class="mdl-button mdl-js-button mdl-button--icon inline">
+											<i class="mdi mdi-delete"></i>
+										</button>
+				                	</div>
+				                </div>
+							</div>
+							<div class="mdl-card mdl-card-challenge">
+								<div class="mdl-card__title">
+				                    <img src="public/img/car-admin.jpg" alt="car">
+				                </div>
+				                <div class="mdl-card__supporting-text">
+				                	<div class="col-xs-8 text-left p-0">
+				                		<p>Dodge Challenger</p>
+				                	</div>
+				                	<div class="col-xs-4 text-right p-0">
+				                		<button class="mdl-button mdl-js-button mdl-button--icon inline">
+											<i class="mdi mdi-unity"></i>
 										</button>
 				                		<button class="mdl-button mdl-js-button mdl-button--icon inline">
 											<i class="mdi mdi-delete"></i>
@@ -264,43 +307,7 @@
 				                	</div>
 				                	<div class="col-xs-4 text-right p-0">
 				                		<button class="mdl-button mdl-js-button mdl-button--icon inline">
-											<i class="mdi mdi-insert_drive_file"></i>
-										</button>
-				                		<button class="mdl-button mdl-js-button mdl-button--icon inline">
-											<i class="mdi mdi-delete"></i>
-										</button>
-				                	</div>
-				                </div>
-							</div>
-							<div class="mdl-card mdl-card-challenge">
-								<div class="mdl-card__title">
-				                    <img src="public/img/car-admin.jpg" alt="car">
-				                </div>
-				                <div class="mdl-card__supporting-text">
-				                	<div class="col-xs-8 text-left p-0">
-				                		<p>Dodge Challenger</p>
-				                	</div>
-				                	<div class="col-xs-4 text-right p-0">
-				                		<button class="mdl-button mdl-js-button mdl-button--icon inline">
-											<i class="mdi mdi-insert_drive_file"></i>
-										</button>
-				                		<button class="mdl-button mdl-js-button mdl-button--icon inline">
-											<i class="mdi mdi-delete"></i>
-										</button>
-				                	</div>
-				                </div>
-							</div>
-							<div class="mdl-card mdl-card-challenge">
-								<div class="mdl-card__title">
-				                    <img src="public/img/car-admin.jpg" alt="car">
-				                </div>
-				                <div class="mdl-card__supporting-text">
-				                	<div class="col-xs-8 text-left p-0">
-				                		<p>Dodge Challenger</p>
-				                	</div>
-				                	<div class="col-xs-4 text-right p-0">
-				                		<button class="mdl-button mdl-js-button mdl-button--icon inline">
-											<i class="mdi mdi-insert_drive_file"></i>
+											<i class="mdi mdi-obj"></i>
 										</button>
 				                		<button class="mdl-button mdl-js-button mdl-button--icon inline">
 											<i class="mdi mdi-delete"></i>

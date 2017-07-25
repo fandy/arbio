@@ -112,8 +112,9 @@
 .mdl-card-admin .mdl-card__title h2{
     margin: auto;
     padding: 5px 10px;
-    border-bottom: 1px solid;
-    font-size: 16px;
+    border-bottom: 1.5px solid;
+    font-size: 14px;
+    font-weight: bold;
 }
 .mdl-card__actions button{
     min-width: 160px;
@@ -127,19 +128,19 @@
 .mdl-card-admin .mdl-card__supporting-text p:nth-child(2){
     margin: auto;
 }
-.mdl-card-admin:nth-child(4) .mdl-card__supporting-text p:nth-child(2){
+.col-md-3:nth-child(4) .mdl-card-admin .mdl-card__supporting-text p:nth-child(2){
     font-weight: bold;
     border-bottom: 1px solid #57386E; 
     max-width: 170px;
     margin: auto;
 }
-.mdl-card-admin:nth-child(2n) .mdl-card__supporting-text p,
-.mdl-card-admin:nth-child(2n) .mdl-card__title h2{
+.col-md-3:nth-child(2n) .mdl-card-admin .mdl-card__supporting-text p,
+.col-md-3:nth-child(2n) .mdl-card-admin .mdl-card__title h2{
     color: #57386E;
     border-color: #57386E;
 }
-.mdl-card-admin:nth-child(2n+1) .mdl-card__supporting-text p,
-.mdl-card-admin:nth-child(2n+1) .mdl-card__title h2{
+.col-md-3:nth-child(2n+1) .mdl-card-admin .mdl-card__supporting-text p,
+.col-md-3:nth-child(2n+1) .mdl-card-admin .mdl-card__title h2{
     color: #588B8B;
     border-color: #588B8B;
 }
@@ -200,6 +201,10 @@
     color: #757575;
     font-weight: bold;
     margin: 0;
+    text-transform: initial;
+}
+.width-initial{
+    width: initial;
 }
 
 /*INPUTS*/
@@ -232,8 +237,14 @@
 .width-125{
     max-width: 130px;
 }
+.width-215{
+    max-width: 215px;
+}
 .width-260 {
     max-width: 260px;
+}
+.width-680 {
+    max-width: 680px;
 }
 .width-850{
     max-width: 850px;
@@ -250,11 +261,11 @@
 }
 .verde:hover,
 .verde{
-    background-color: #588B8B;
+    background-color: #588B8B !important;
 }
 .morado:hover,
 .morado{
-    background-color: #57386E;
+    background-color: #57386E !important;
 }
 
 /*EMPTY*/
@@ -656,6 +667,10 @@ p.title-pricing{
 .dropzone{
     border: 0;
     padding: 0;
+}
+.mdl-button.mdl-button--raised:FOCUS:not(:ACTIVE){
+    background-color: transparent;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
 }
 @media screen and (max-width: 1024px){
    .mdl-layout--fixed-drawer>.mdl-layout__content {
