@@ -325,8 +325,13 @@ button.border-button{
     border-radius: 20px;
 }
 .mdl-button--raised{
+    transition: box-shadow .5s ease;
     box-shadow: 0 0px 0px 0 rgba(0,0,0,.14), 0 0px 1px -2px rgba(0,0,0,.1), 0 1px 1px 0 rgba(0,0,0,.1);
 }
+.mdl-button--raised:hover{
+    box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.1);
+}
+
   
 .mdl-switch{
     width: inherit;
