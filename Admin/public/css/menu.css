@@ -1,4 +1,11 @@
-﻿.mdl-layout__container{
+﻿.mdl-layout__header-row .btn-group button:hover{
+    background-color: inherit;
+}
+.mdl-layout__header-row .btn-group.open .dropdown-toggle{
+    box-shadow: inherit;
+}
+
+.mdl-layout__container{
     background-color: #EEF0F3;
 }
 .mdl-layout__header-row{
